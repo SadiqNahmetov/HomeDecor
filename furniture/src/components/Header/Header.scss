@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+
+    .header__left {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+
+        .select {
+            height: 3rem;
+            background: var(--main-bg);
+            border-radius: 5px;
+            border: 2px solid var(--border-color);
+        }
+
+    }
+
+    .header__center {
+        p {
+            align-items: center;
+            color: var(--main-text-color);
+            font-family: var(--second-font);
+            font-size: 3.6rem;
+            line-height: 4rem
+        }
+    }
+
+    .header__right {
+        display: flex;
+        gap: 2rem;
+    }
+}

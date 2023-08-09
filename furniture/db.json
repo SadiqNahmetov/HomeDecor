@@ -1,0 +1,34 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Product 1",
+            "price":100,
+            "img" : "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+
+        },
+        {
+            "id":2,
+            "name":"Product 2",
+            "price":200,
+            "img" : "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+
+
+        }
+      
+    ],
+
+    "users":[
+        {
+            "id":1,
+            "name":"User 1",
+            "email":"g.ckd"
+
+        }
+    ]
+
+
+
+    
+    
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Raleway:wght@400;500&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+  border: 0;
+}
+
+:root {
+  --main-font: 'Raleway', sans-serif;
+  --second-font:'GFS Didot', serif;
+  --txt-color-white: #ffffff;
+  --main-bg: #EAE6DF;  
+  --main-button-txt:#EAE6DF;
+  --txt-color-dark: #2D2D2B;
+  --main-input-bg:#EAE6DF;
+  --border-color:#D4C8BE;
+  --btn-bg-color: #B8926A;
+  --hover-btn-bg-color:#A5825D;
+  --disabled-btn-bg:#B0B0B0;
+  --secondary-btn-br-color:#B8926A;
+  --secondary-btn-disabled-br-color:#B0B0B0;
+  --secondary-btn-color:#B8926A;
+  --secondary-btn-hover-color:#A5825D;
+  --scondary-btn-disabled-color:#B0B0B0;
+  --dropdown-text-color:#B8926A;
+  --dropdown-bg-color:#EAE6DF;
+  --dropdown-br-color:#B8926A;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--txt-color-dark);
+  background: var(--main-bg);
+
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 138rem;
+  width: 100%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  transition: all 0.4s linear !important;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 7.2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--second-font);
+  font-weight: 700;
+}
+h2 {
+  font-family: var(--second-font);
+  font-size: 6.4rem;
+}
+h3 {
+  font-size: 4.8rem;
+}
+h4 {
+  font-size: 2.4rem;
+}
+
+.btn {
+  width: 33rem;
+  height: 5.3rem;
+  flex-shrink: 0;
+}
+
+
+

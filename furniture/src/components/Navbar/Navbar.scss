@@ -1,0 +1,23 @@
+.navbar {
+	width: 100%;
+	gap: 2rem;
+	padding: 2rem 0;
+}
+.menu__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5.5rem;
+	
+}
+.menu__list--item {
+	a {
+		border-bottom: 2px solid transparent;
+		&.active{
+			border-bottom-color: #B8926A;
+		}
+		color: var(--main-text-color);
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+}
