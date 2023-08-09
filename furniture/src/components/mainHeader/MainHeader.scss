@@ -4,8 +4,7 @@
     justify-content: space-between;
     padding: 12rem 0;
 
-    .main__header--title {
-
+   
         .main__header--title--text {
             width: 83rem;
             height: 16.2rem;
@@ -19,7 +18,7 @@
             }
         }
 
-        .main__header--title--text--desc {
+        .main__header--title--desc {
             width: 44.7rem;
             padding-top: 3rem;
 
@@ -30,5 +29,10 @@
 
             }
         }
-    }
+       
+        .main__header--title--btn{
+              padding:  3rem 0;
+
+        }
+    
 }

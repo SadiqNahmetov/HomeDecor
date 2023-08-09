@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "../src/pages/home/Home";
-import MainLayout from "./layout/mainLayout/MainLayout";
+import MainLayout from "./layout/MainLayout";
 import About from "./pages/about/About";
 import Product from "./pages/product/Product";
 import Collection from "./pages/collection/Collection";
@@ -15,9 +15,7 @@ function App() {
     <>
       <Router>
         <Routes>
-
         {/* <Route path="*" element={<Home />} /> */}
-
           <Route path="/" element={<MainLayout />}>
 
             <Route path="/" element={<Home />} />
@@ -28,11 +26,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
 
           </Route>
+
         </Routes>
-
-
-
-
 
       </Router>
 
