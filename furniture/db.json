@@ -1,41 +1,28 @@
 {
-
-    "mainHeader":{
-    "title":"THE FURNITURE THAT DEFINES YOU",
-    "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum",
-    "image": "https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1692576000&Signature=NoNlgGQemAOyIFOwPePAx4vLLslw6BWXmyK8CdPn4gStkOhXfur54bJcSYsBy0AHyYeCQm0EQJGbS1CjQpbY7mFeZkfNpX4Fvm6wcj8TMTKnGhGECNtfFKD1mpRfWMb5kq-ABoxPazxoHn92~iHtpKngio-PMyODE3Acid~DPuWJ65qAcuUZbu0nD3II5vzp7QuCb8syZ7cip-36~cRvBcQpf4n~4yb2mfsXQczAFuuR1Jr87LdDJ7vtQu1TxWUZGk7B5a3IFJTyXF4xHYn4rMnaBn831WF1yumPQKSuPpHnfWNa6cxlV92WOlEaPepXUGxt6kVh9zBLxo6t8CGGzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    "mainHeader": {
+        "title": "THE FURNITURE THAT DEFINES YOU",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum",
+        "image": "https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1692576000&Signature=NoNlgGQemAOyIFOwPePAx4vLLslw6BWXmyK8CdPn4gStkOhXfur54bJcSYsBy0AHyYeCQm0EQJGbS1CjQpbY7mFeZkfNpX4Fvm6wcj8TMTKnGhGECNtfFKD1mpRfWMb5kq-ABoxPazxoHn92~iHtpKngio-PMyODE3Acid~DPuWJ65qAcuUZbu0nD3II5vzp7QuCb8syZ7cip-36~cRvBcQpf4n~4yb2mfsXQczAFuuR1Jr87LdDJ7vtQu1TxWUZGk7B5a3IFJTyXF4xHYn4rMnaBn831WF1yumPQKSuPpHnfWNa6cxlV92WOlEaPepXUGxt6kVh9zBLxo6t8CGGzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
-
-    "products":[
+    "products": [
         {
-            "id":1,
-            "name":"Product 1",
-            "price":100,
-            "img" : "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
+            "id": 1,
+            "name": "Product 1",
+            "price": 100,
+            "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         },
         {
-            "id":2,
-            "name":"Product 2",
-            "price":200,
-            "img" : "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-
-
+            "id": 2,
+            "name": "Product 2",
+            "price": 200,
+            "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         }
-      
     ],
-
-    "users":[
+    "users": [
         {
-            "id":1,
-            "name":"User 1",
-            "email":"g.ckd"
-
+            "id": 1,
+            "name": "User 1",
+            "email": "g.ckd"
         }
     ]
-
-
-
-    
-    
 }

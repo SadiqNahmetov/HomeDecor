@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 33rem;
+    height: 5.3rem;
+    border-radius: 1rem;
+    color: var(--main-button-txt);
+    background: var(--btn-bg-color);
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+      background: var(--hover-btn-bg-color);
+    }
+  
+  }
+  

@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import axios from 'axios';
-import MainHeader from '../../components/mainHeader/MainHeader'
+import MainHeader from '../../components/MainHeader';
+
 
 
 
@@ -19,11 +20,11 @@ function Home() {
   useEffect(()=>{
       getMainHeader();
       console.log(mainHeader);
-  },[])
+  })
   return (
 
     <main>
-     <MainHeader {...mainHeader} />
+      <MainHeader {...mainHeader}/>
     </main>
         
      

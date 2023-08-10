@@ -95,21 +95,3 @@ h4 {
   font-size: 2.4rem;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  width: 33rem;
-  height: 5.3rem;
-  flex-shrink: 0;
-  border-radius: 1rem;
-  color: var(--main-button-txt);
-  background: var(--btn-bg-color);
-  cursor: pointer;
-
-}
-
-.btn:hover {
-  background: var(--hover-btn-bg-color);
-}
