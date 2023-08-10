@@ -1,16 +1,18 @@
 import React from 'react'
 import './MainHeader.scss'
-function MainHeader() {
+
+
+function MainHeader({title, description,image}) {
     return (
         <>
             <div className='container'>
                 <div className='main__header'>
                     <div className='main__header--title'>
                         <div className='main__header--title--text'>
-                            <h1>THE FURNITURE THAT DEFINES YOU</h1>
+                            <h1>{title}</h1>
                         </div>
                         <div className='main__header--title--desc'>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                            <p>{description}</p>
                         </div>
 
                         <div className='main__header--title--btn'>
@@ -32,11 +34,12 @@ function MainHeader() {
                     </div>
 
                     <div className='main__header--image'>
-                        <div className='main_header--opacity'></div>
-                        <img src="https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1692576000&Signature=NoNlgGQemAOyIFOwPePAx4vLLslw6BWXmyK8CdPn4gStkOhXfur54bJcSYsBy0AHyYeCQm0EQJGbS1CjQpbY7mFeZkfNpX4Fvm6wcj8TMTKnGhGECNtfFKD1mpRfWMb5kq-ABoxPazxoHn92~iHtpKngio-PMyODE3Acid~DPuWJ65qAcuUZbu0nD3II5vzp7QuCb8syZ7cip-36~cRvBcQpf4n~4yb2mfsXQczAFuuR1Jr87LdDJ7vtQu1TxWUZGk7B5a3IFJTyXF4xHYn4rMnaBn831WF1yumPQKSuPpHnfWNa6cxlV92WOlEaPepXUGxt6kVh9zBLxo6t8CGGzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="furniture" />
+
+                        <img src={image} alt="furniture" />
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

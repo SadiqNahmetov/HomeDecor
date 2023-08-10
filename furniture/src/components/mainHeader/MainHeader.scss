@@ -1,26 +1,30 @@
 .main__header {
     display: flex;
+    position: relative;
     align-items: center;
-    justify-content: space-between;
-    padding: 12rem 0;
+    flex-wrap: wrap;
+    justify-content: end;
 
-   
+    .main__header--title {
+        position: absolute;
+        max-width: 83rem;
+        z-index: 1;
+        left: 0;
+
+
         .main__header--title--text {
-            width: 83rem;
-            height: 16.2rem;
-
+            padding-bottom: 3rem;
 
             h1 {
                 font-family: var(--second-font);
                 font-size: 7.2rem;
                 font-weight: 700;
-                line-height: 8.6rem;
             }
         }
 
         .main__header--title--desc {
-            width: 44.7rem;
-            padding-top: 3rem;
+            max-width: 44.7rem;
+            padding-bottom: 3rem;
 
             p {
                 color: var(--txt-color-dark);
@@ -29,10 +33,28 @@
 
             }
         }
-       
-        .main__header--title--btn{
-              padding:  3rem 0;
+    }
+
+    .main__header--image {
+        position: relative;
+        max-width: 91.3rem;
+        img{
+            border-radius: 1rem;
+        }
+        
+
+        &::after {
+            content: "";
+            background: rgba(255, 255, 255, 0.10);
+            backdrop-filter: blur(5.5px);
+            position: absolute;
+            width: 30%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 1rem;
 
         }
-    
+    }
+
 }
