@@ -6,6 +6,7 @@ import MainHeader from '../../components/MainHeader';
 
 
 function Home() {
+  
   const  url = 'http://localhost:3000'
 
   const [mainHeader, setMainHeader] = useState([])

@@ -54,6 +54,7 @@ html {
 }
 
 a {
+  color: var(--main-text-color);
   text-decoration: none;
   transition: all 0.4s linear !important;
 }
@@ -73,7 +74,6 @@ img {
 h1 {
   font-size: 7.2rem;
 }
-
 h1,
 h2,
 h3,
