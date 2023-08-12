@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    .footer__logo-copyrigt {
+        p {
+            font-family: var(--second-font);
+            font-size: 5.2rem;
+        }
+        span{
+            font-size: 1.2rem;
+        }
+    }
+
+    .footer__text{
+        p {
+            width: 25rem;
+            height: 4.6rem;
+            line-height: 24px;
+        }
+    }
+    .footer__contact {
+        display: flex;
+        gap: 5rem;
+            .phone {
+                font-variant-numeric: lining-nums proportional-nums;
+                width: 14.2rem;
+                height: 2.2rem;
+                color: var(--footer-txt-color);
+            }
+            .gmail {
+                width: 20rem;
+                height: 2.2rem;
+            }
+        }
+}

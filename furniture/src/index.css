@@ -20,7 +20,9 @@
   --main-input-bg: #EAE6DF;
   --border-color: #D4C8BE;
   --btn-bg-color: #B8926A;
+  --footer-txt-color: #717171;
   --hover-btn-bg-color: #A5825D;
+  --disabled-btn-color: #EAE6DF;
   --disabled-btn-bg: #B0B0B0;
   --secondary-btn-br-color: #B8926A;
   --secondary-btn-disabled-br-color: #B0B0B0;
@@ -83,7 +85,6 @@ h4 {
 }
 
 h2 {
-  font-family: var(--second-font);
   font-size: 6.4rem;
 }
 

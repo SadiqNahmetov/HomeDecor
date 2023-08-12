@@ -1,5 +1,5 @@
 import React from 'react'
-import './buttonPrimary.scss'
+import './primaryButton.scss'
 
 function ButtonPrimary({ children, href, disabled = false }) {
     return (
@@ -7,7 +7,7 @@ function ButtonPrimary({ children, href, disabled = false }) {
             <button
                 disabled={disabled}
                 onClick={() => (window.location.href = href)}
-                className='btn'
+                className='primary__btn'
             >
                 {children}
             </button>

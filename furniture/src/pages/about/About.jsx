@@ -5,7 +5,6 @@ function About() {
     <main>
             
                 
-               <h1>hdcdjkvdsgjadshjd</h1>             
     </main> 
      )
 }
