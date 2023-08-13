@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        font-family: var(--second-font);
+        font-size: 4.8rem;
+        font-weight: 700;
+
+    }
+
+    .about__img {
+        width: 68rem;
+        height: 41.2rem;
+        border-radius: 30rem 0.5rem,0.5rem, 0.5rem;
+    }
+
+    .about__text {
+        width: 56.3rem;
+        font-variant-numeric: lining-nums proportional-nums;
+    }
+}
