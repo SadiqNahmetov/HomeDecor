@@ -7,7 +7,7 @@ function ButtonPrimary({ children, href, disabled = false }) {
             <button
                 disabled={disabled}
                 onClick={() => (window.location.href = href)}
-                className='primary__btn'
+                className='primary__btn btn'
             >
                 {children}
             </button>

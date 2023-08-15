@@ -96,3 +96,14 @@ h4 {
   font-size: 2.4rem;
 }
 
+.btn{
+  width: 33rem;
+  height: 5.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}

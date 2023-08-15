@@ -4,9 +4,13 @@ import './secondaryButton.scss'
 function SecondaryButton() {
   return (
 
-    <button className='secondary__btn'>
-     
-     LEARN MORE
+    <button
+      // disabled={disabled}
+      // onClick={() => (window.location.href = href)}
+      className='secondary__btn btn'
+    >
+      {/* {children} */}
+      READ MORE
     </button>
 
 

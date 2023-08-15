@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import axios from 'axios';
 import MainHeader from '../../components/MainHeader';
+import AboutUs from '../../components/AboutUs';
 
 
 
@@ -26,6 +27,7 @@ function Home() {
 
     <main>
       <MainHeader {...mainHeader}/>
+      <AboutUs/>
     </main>
         
      

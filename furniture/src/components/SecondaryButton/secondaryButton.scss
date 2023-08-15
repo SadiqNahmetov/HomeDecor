@@ -1,15 +1,7 @@
 .secondary__btn {
-    display: flex;
-    width: 33rem;
-    height: 5.3rem;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    border-radius: 1rem;
     border: 1px solid var(--btn-bg-color);
-    color: var(--secondary-btn-color);
-
-   
+    color: var(  --secondary-btn-color);
+    background: none;
 
     &:disabled{
       background: var(--scondary-btn-disabled-color);
