@@ -1,7 +1,7 @@
 import React, {useState,useEffect } from 'react'
 import axios from 'axios';
 import MainHeader from '../../components/MainHeader';
-import Slider from '../../components/Slider';
+// import Slider from '../../components/Slider';
 import AboutUs from '../../components/AboutUs';
  import Discount from '../../components/Discount';
  import ProductList from '../../components/ProductList';
@@ -32,7 +32,7 @@ function Home() {
 
     <main>
       <MainHeader {...mainHeader}/>
-      <Slider/>
+      {/* <Slider/> */}
       <AboutUs/>
       <Discount/>
       <ProductList/>

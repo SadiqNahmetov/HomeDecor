@@ -1,20 +1,17 @@
-import React from 'react'
-import './secondaryButton.scss'
+import React from "react";
+import classes from "./secondaryButton.module.scss";
 
-function SecondaryButton() {
+function SecondaryButton(href, disabled, children) {
   return (
-
     <button
-      // disabled={disabled}
-      // onClick={() => (window.location.href = href)}
-      className='secondary__btn btn'
+      disabled={(disabled = false)}
+      onClick={() => (window.location.href = href)}
+      className={classes.secondary__btn + " " + "btn"}
     >
-      {/* {children} */}
+      {children}
       READ MORE
     </button>
-
-
-  )
+  );
 }
 
 export default SecondaryButton;

@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 0;
    
-    .footer__logo-copyrigt {
+    &__logo--copyrigt {
         p {
             font-family: var(--second-font);
             font-size: 5.2rem;
@@ -13,14 +14,14 @@
         }
     }
 
-    .footer__text{
+    &__text{
         p {
             width: 25rem;
             height: 4.6rem;
             line-height: 24px;
         }
     }
-    .footer__contact {
+   &__contact {
         display: flex;
         gap: 5rem;
             .phone {

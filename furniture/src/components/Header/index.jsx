@@ -1,22 +1,22 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import './header.scss'
+import classes from'./header.module.scss'
 
 function Header() {
     return (
 
      <section>
            <div className='container'>
-            <div className='header'>
+            <div className={classes.header}>
 
-                <div className='header__left'>
-                    <div className='header__left--langue'>
-                        <select className='select' >
+                <div className={classes['header__left']}>
+                    <div className={classes['header__left--langue']}>
+                        <select className={classes['header__left--select']}>
                             <option value="">Az</option>
                             <option value="">En</option>
                         </select>
                     </div>
-                    <div className='header__left--search'>
+                    <div className={classes['header__left--search']}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M10.5416 2.52081C6.1118 2.52081 2.52075 6.11186 2.52075 10.5416C2.52075 14.9714 6.1118 18.5625 10.5416 18.5625C14.9714 18.5625 18.5624 14.9714 18.5624 10.5416C18.5624 6.11186 14.9714 2.52081 10.5416 2.52081ZM1.14575 10.5416C1.14575 5.35247 5.35241 1.14581 10.5416 1.14581C15.7308 1.14581 19.9374 5.35247 19.9374 10.5416C19.9374 15.7308 15.7308 19.9375 10.5416 19.9375C5.35241 19.9375 1.14575 15.7308 1.14575 10.5416ZM17.8471 17.8472C18.1156 17.5787 18.5509 17.5787 18.8194 17.8472L20.6527 19.6805C20.9212 19.949 20.9212 20.3843 20.6527 20.6528C20.3842 20.9213 19.9489 20.9213 19.6804 20.6528L17.8471 18.8195C17.5786 18.551 17.5786 18.1157 17.8471 17.8472Z" fill="#2D2D2B" />
                         </svg>
@@ -24,12 +24,12 @@ function Header() {
                 </div>
 
 
-                <div className='header__center'>
+                <div className={classes['header__center']}>
                     <p>HomeDecor</p>
                 </div>
 
-                <div className='header__right'>
-                    <div className='header__right--basket'>
+                <div className={classes['header__right']}>
+                    <div className={classes['header__right--basket']}>
                         <Link>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M7.5 18C8.32843 18 9 18.6716 9 19.5C9 20.3284 8.32843 21 7.5 21C6.67157 21 6 20.3284 6 19.5C6 18.6716 6.67157 18 7.5 18Z" stroke="#2D2D2B" strokeWidth="1.5" />
@@ -38,7 +38,7 @@ function Header() {
                             </svg>
                         </Link>
                     </div>
-                    <div className='header__right--profile'>
+                    <div className={classes['header__right--profile']}>
                         <Link>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M12 1.25C9.37665 1.25 7.25 3.37665 7.25 6C7.25 8.62335 9.37665 10.75 12 10.75C14.6234 10.75 16.75 8.62335 16.75 6C16.75 3.37665 14.6234 1.25 12 1.25ZM8.75 6C8.75 4.20507 10.2051 2.75 12 2.75C13.7949 2.75 15.25 4.20507 15.25 6C15.25 7.79493 13.7949 9.25 12 9.25C10.2051 9.25 8.75 7.79493 8.75 6Z" fill="#2D2D2B" />

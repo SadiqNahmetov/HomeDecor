@@ -1,12 +1,12 @@
 import React from 'react'
-import ButtonPrimary from '../PrimaryButton'
-import './discount.scss'
-import discountImage from '../../assets/images/Rectangle106.png';
+import ButtonPrimary from '../PrimaryButton';
+import classes from'./discount.module.scss'
+
 
 function Discount() {
   return (
     <section>
-      <div className="discount">
+      <div className={classes.discount}>
         <h2>20% DISCOUNT</h2>
         <p>Et harum quidem rerum facilis est et expedita distinctio.
           Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo </p>

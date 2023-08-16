@@ -1,5 +1,5 @@
-const changeTitle = (title) =>{
-    document.title = title;
-}
+const changeTitle = (title) => {
+  document.title = title;
+};
 
 export default changeTitle;

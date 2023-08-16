@@ -4,13 +4,13 @@
     justify-content: space-between;
     padding: 2.5rem 0;
 
-    .header__left {
+    &__left {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap: 2rem;
 
-        .select {
+       &--select {
             height: 3rem;
             background: var(--main-bg);
             border-radius: 5px;
@@ -19,7 +19,7 @@
 
     }
 
-    .header__center {
+    &__center {
         p {
             align-items: center;
             color: var(--main-text-color);
@@ -29,7 +29,7 @@
         }
     }
 
-    .header__right {
+    &__right {
         display: flex;
         gap: 2rem;
     }
