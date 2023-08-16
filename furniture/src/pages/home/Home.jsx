@@ -1,13 +1,18 @@
-import React, { useState,useEffect } from 'react'
+import React, {useState,useEffect } from 'react'
 import axios from 'axios';
 import MainHeader from '../../components/MainHeader';
+import Slider from '../../components/Slider';
 import AboutUs from '../../components/AboutUs';
+ import Discount from '../../components/Discount';
+ import ProductList from '../../components/ProductList';
+import changeTitle from '../../helpers/Change';
+
 
 
 
 
 function Home() {
-  
+
   const  url = 'http://localhost:3000'
 
   const [mainHeader, setMainHeader] = useState([])
@@ -21,13 +26,17 @@ function Home() {
   
   useEffect(()=>{
       getMainHeader();
-      console.log(mainHeader);
-  })
+      changeTitle('Home')
+  },[])
   return (
 
     <main>
       <MainHeader {...mainHeader}/>
+      <Slider/>
       <AboutUs/>
+      <Discount/>
+      <ProductList/>
+     
     </main>
         
      

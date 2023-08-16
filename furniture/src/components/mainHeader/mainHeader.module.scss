@@ -5,14 +5,14 @@
     flex-wrap: wrap;
     justify-content: end;
 
-    .main__header--title {
+    &--title {
         position: absolute;
-        max-width: 83rem;
+        max-width: 81rem;
         z-index: 1;
         left: 0;
 
 
-        .main__header--title--text {
+        &--text {
             padding-bottom: 3rem;
 
             h1 {
@@ -22,8 +22,8 @@
             }
         }
 
-        .main__header--title--desc {
-            max-width: 44.7rem;
+        &--desc {
+            max-width: 44.3rem;
             padding-bottom: 3rem;
 
             p {
@@ -34,10 +34,13 @@
             }
         }
     }
+    &--btn{
+        width: 33rem !important;
+    }
 
-    .main__header--image {
+    &--image {
         position: relative;
-        max-width: 91.3rem;
+        max-width: 93.6rem;
         img{
             border-radius: 1rem;
         }

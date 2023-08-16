@@ -1,5 +1,5 @@
 import React from 'react'
-import './mainHeader.scss'
+import classes from './mainHeader.module.scss'
 import ButtonPrimary from '../PrimaryButton'
 
 
@@ -7,16 +7,16 @@ function MainHeader({title, description,image}) {
     return (
         <>
             <div className='container'>
-                <div className='main__header'>
-                    <div className='main__header--title'>
-                        <div className='main__header--title--text'>
+                <div className={classes.main__header}>
+                    <div className={classes['main__header--title']}>
+                        <div className={classes['main__header--title--text']}>
                             <h1>{title}</h1>
                         </div>
-                        <div className='main__header--title--desc'>
+                        <div className={classes['main__header--title--desc']}>
                             <p>{description}</p>
                         </div>
 
-                        <div className='main__header--title--btn'>
+                        <div className={classes['main__header--title--btn']}>
                         <ButtonPrimary href="https://github.com/SadiqNahmetov">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M15 11C15.5523 11 16 10.5523 16 10C16 9.44771 15.5523 9 15 9C14.4477 9 14 9.44771 14 10C14 10.5523 14.4477 11 15 11Z" fill="#EAE6DF" />
@@ -34,7 +34,7 @@ function MainHeader({title, description,image}) {
 
                     </div>
 
-                    <div className='main__header--image'>
+                    <div className={classes['main__header--image']}>
 
                         <img src={image} alt="furniture" />
                     </div>

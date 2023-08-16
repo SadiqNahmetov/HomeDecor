@@ -1,0 +1,22 @@
+.product {
+  padding: 12.8rem 0;
+
+  &__secthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--action {
+      color: var(--btn-bg-color);
+      text-decoration: underline;
+    }
+  }
+
+  &__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: 1.8rem;
+
+  }
+}

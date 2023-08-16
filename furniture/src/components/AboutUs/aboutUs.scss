@@ -1,46 +1,25 @@
-.container{
-    h3 {
-        font-family: var(--second-font);
-        font-size: 4.8rem;
-        font-weight: 700;
-        padding-bottom: 2rem !important;
-
-    }
     .about {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    
-    
-    
+        padding-bottom: 14rem;
+
         .about__img {
             width: 68rem;
             height: 41.2rem;
             border-radius: 300px 5px 5px 5px;
             overflow: hidden;
-    
-            img{
-               object-fit: cover;
+            img {
+                object-fit: cover;
             }
         }
-    
+
         .about__text {
             width: 56.3rem;
             font-variant-numeric: lining-nums proportional-nums;
-
-            .about__text--first{
-                padding-top: 2rem;
-            }
-                
-            .about__text--second{
-                padding-top: 2rem;
-            }
-
-            .about__text--third{
-                padding-top: 2rem;
-                padding-bottom: 3rem;
+            padding-bottom: 3rem;
+            p{
+                line-height: 2.4rem;
             }
         }
-        
     }
-}

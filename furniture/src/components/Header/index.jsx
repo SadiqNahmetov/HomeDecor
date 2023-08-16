@@ -5,7 +5,8 @@ import './header.scss'
 function Header() {
     return (
 
-        <div className='container'>
+     <section>
+           <div className='container'>
             <div className='header'>
 
                 <div className='header__left'>
@@ -50,6 +51,7 @@ function Header() {
             </div>
         </div>
 
+     </section>
 
 
     )

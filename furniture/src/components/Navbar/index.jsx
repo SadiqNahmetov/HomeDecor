@@ -15,7 +15,8 @@ function Navbar() {
 
   return (
 
-    <div className='container'>
+   <section>
+     <div className='container'>
       <div className="navbar ">
         <nav className="menu">
           <ul className="menu__list ">
@@ -42,6 +43,7 @@ function Navbar() {
         </nav>
       </div>
     </div>
+   </section>
 
 
   )

@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutUs from '../../components/AboutUs'
+import changeTitle from '../../helpers/Change'
 
 function About() {
+
+  useEffect(()=>{
+    changeTitle('About')
+  },[])
   return (
     <main>
            <AboutUs /> 
