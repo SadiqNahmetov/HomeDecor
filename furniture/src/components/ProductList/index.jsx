@@ -29,6 +29,15 @@ function ProductList() {
           <div className={classes["product__grid__item"]}>
             <ProductCard />
           </div>
+          <div className={classes["product__grid__item"]}>
+            <ProductCard />
+          </div>
+          <div className={classes["product__grid__item"]}>
+            <ProductCard />
+          </div>
+          <div className={classes["product__grid__item"]}>
+            <ProductCard />
+          </div>
         </div>
       </div>
     </div>

@@ -5,19 +5,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 0;
 
     &--action {
       color: var(--btn-bg-color);
       text-decoration: underline;
     }
   }
-
   &__grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    row-gap: 3rem;
     column-gap: 1.8rem;
-
   }
 }

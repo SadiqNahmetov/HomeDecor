@@ -8,6 +8,7 @@ import Product from "./pages/product/Product";
 import Collection from "./pages/collection/Collection";
 import Sale from "./pages/sale/Sale";
 import Contact from "./pages/contact/Contact";
+import Page404 from './pages/Page404/Page404';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
 
           </Route>
-
+          <Route path='*' element={<Page404 />} />
         </Routes>
 
       </Router>

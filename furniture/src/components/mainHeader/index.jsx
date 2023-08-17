@@ -28,8 +28,6 @@ function MainHeader({title, description,image}) {
                                     </svg>
                                     SHOP NOW
                         </ButtonPrimary>
-                    
-
                         </div>
 
                     </div>

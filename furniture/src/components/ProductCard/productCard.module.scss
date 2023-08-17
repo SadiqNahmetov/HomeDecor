@@ -1,7 +1,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    gap: 2.2rem;
+    gap: 1rem;
 
     &__img{
         max-width: 33rem;
@@ -29,7 +29,7 @@
         font-size: 2rem;
         font-weight: 500;
         line-height: 2.8rem;
-        width: 33rem;
+        max-width: 33rem;
         color: var(--txt-color-dark);
      
     }
@@ -37,7 +37,6 @@
     &__price{
         font-size: 2rem;
         font-weight: 700;
-        line-height: 2.8rem;
         color: var(--dropdown-text-color);
     }
 }

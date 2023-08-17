@@ -1,25 +1,27 @@
-    .about {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 14rem;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14rem;
 
-        &__img {
-            width: 68rem;
-            height: 41.2rem;
-            border-radius: 300px 5px 5px 5px;
-            overflow: hidden;
-            img {
-                object-fit: cover;
-            }
-        }
 
-       &__text {
-            width: 56.3rem;
-            font-variant-numeric: lining-nums proportional-nums;
-            padding-bottom: 3rem;
-            p{
-                line-height: 2.4rem;
-            }
-        }
+
+  &__img {
+    width: 68rem;
+    height: 41.2rem;
+    border-radius: 300px 5px 5px 5px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
     }
+  }
+
+  &__text {
+    width: 56.3rem;
+    font-variant-numeric: lining-nums proportional-nums;
+    padding-bottom: 3rem;
+    p {
+      line-height: 2.4rem;
+    }
+  }
+}
