@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import AboutUs from '../../components/AboutUs'
 import changeTitle from '../../helpers/Change'
+import Stats from '../../components/Stats'
 
 function About() {
 
@@ -10,6 +11,7 @@ function About() {
   return (
     <main>
            <AboutUs /> 
+           <Stats />
                 
     </main> 
      )
