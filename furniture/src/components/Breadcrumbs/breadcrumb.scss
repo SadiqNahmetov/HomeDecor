@@ -1,0 +1,15 @@
+.pagelink {
+  line-height: 2rem;
+
+  &.active::before {
+    content: "|";
+    margin: 0 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+    opacity: 0.5;
+   
+  }
+  &:not(.active) {
+    opacity: 0.5;
+  }
+}

@@ -16,17 +16,16 @@ function App() {
     <>
       <Router>
         <Routes>
-        {/* <Route path="*" element={<Home />} /> */}
+      
           <Route path="/" element={<MainLayout />}>
-
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/product" element={<Product />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/sale" element={<Sale />} />
             <Route path="/contact" element={<Contact />} />
-
           </Route>
+          
           <Route path='*' element={<Page404 />} />
         </Routes>
 

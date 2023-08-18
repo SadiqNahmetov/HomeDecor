@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import changeTitle from '../../helpers/Change';
+import Breadcrumbs from '../../components/Breadcrumbs';
 
 function Product() {
 
@@ -9,7 +10,7 @@ function Product() {
   return (
     
     <main>
-      
+      <Breadcrumbs />
    </main>
   )
 }

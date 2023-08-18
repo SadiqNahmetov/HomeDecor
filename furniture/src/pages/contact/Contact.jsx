@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import changeTitle from '../../helpers/Change';
+import Breadcrumbs from '../../components/Breadcrumbs';
 
 function Contact() {
   useEffect(()=>{
@@ -7,7 +8,7 @@ function Contact() {
   },[])
   return (
     <main>
-
+      <Breadcrumbs />
    </main>
   )
 }

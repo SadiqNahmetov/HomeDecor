@@ -26,7 +26,7 @@ function Home() {
     <main>
       <MainHeader {...mainHeader} />
       {/* <Slider/> */}
-      <AboutUs showLinks={false} />
+      <AboutUs />
       <Discount />
       <ProductList />
     </main>

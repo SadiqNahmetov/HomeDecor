@@ -16,7 +16,7 @@
 
     &__text{
         p {
-            width: 25rem;
+            max-width: 25rem;
             height: 4.6rem;
             line-height: 24px;
         }
@@ -26,12 +26,12 @@
         gap: 5rem;
             .phone {
                 font-variant-numeric: lining-nums proportional-nums;
-                width: 14.2rem;
+                max-width: 14.2rem;
                 height: 2.2rem;
                 color: var(--footer-txt-color);
             }
             .gmail {
-                width: 20rem;
+                max-width: 20rem;
                 height: 2.2rem;
             }
         }

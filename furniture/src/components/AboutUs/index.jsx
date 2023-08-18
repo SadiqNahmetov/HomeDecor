@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./aboutUs.module.scss";
 import SecondaryButton from "../SecondaryButton";
 
@@ -7,17 +6,6 @@ function AboutUs({image, description, showLinks = true}) {
   return (
     <section>
       <div className="container">
-      {showLinks && ( 
-          <div className="header__link">
-            <Link to="/">
-              <span className="home__txt--opacty">Home</span>
-            </Link>
-            <span>|</span>
-            <Link to="/about">
-              <p>About</p>
-            </Link>
-          </div>
-        )}
         <h3 className="head">ABOUT US</h3>
         <div className={classes.about}>
           <div className={classes["about__img"]}>
@@ -57,3 +45,5 @@ function AboutUs({image, description, showLinks = true}) {
 }
 
 export default AboutUs;
+
+
