@@ -11,7 +11,7 @@ function Discount() {
         <p>Et harum quidem rerum facilis est et expedita distinctio.
           Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo </p>
 
-        <ButtonPrimary href="https://github.com/SadiqNahmetov">
+        <ButtonPrimary href="/product">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M15 11C15.5523 11 16 10.5523 16 10C16 9.44771 15.5523 9 15 9C14.4477 9 14 9.44771 14 10C14 10.5523 14.4477 11 15 11Z" fill="#EAE6DF" />
             <path d="M10 10C10 10.5523 9.55228 11 9 11C8.44771 11 8 10.5523 8 10C8 9.44771 8.44771 9 9 9C9.55228 9 10 9.44771 10 10Z" fill="#EAE6DF" />

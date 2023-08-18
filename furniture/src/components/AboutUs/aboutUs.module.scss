@@ -1,5 +1,6 @@
 .about {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 14rem;
@@ -15,7 +16,8 @@
   }
 
   &__text {
-    width: 56.3rem;
+    max-width: 56.3rem;
+    width: 100%;
     font-variant-numeric: lining-nums proportional-nums;
     padding-bottom: 3rem;
     p {
