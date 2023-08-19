@@ -1,17 +1,16 @@
-import React, { useEffect } from 'react';
-import changeTitle from '../../helpers/Change';
-import Breadcrumbs from '../../components/Breadcrumbs';
+import React, { useEffect } from "react";
+import changeTitle from "../../helpers/Change";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 function Sale() {
-
-  useEffect(()=>{
-    changeTitle('Sale')
-  },[])
+  useEffect(() => {
+    changeTitle("Sale");
+  }, []);
   return (
-   <main>
-    <Breadcrumbs />
-   </main>
-  )
+    <main>
+      <Breadcrumbs />
+    </main>
+  );
 }
 
-export default Sale
+export default Sale;
