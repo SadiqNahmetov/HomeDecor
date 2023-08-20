@@ -7,7 +7,7 @@ function ProductList() {
       <div className={classes.product}>
     <div className="container">
         <div className={classes["product__secthead"]}>
-          <h3 className="head">PRODUCTS</h3>
+          
           <div className={classes["product__secthead--action"]}>
             <Link to="/about">SEE ALL</Link>
           </div>

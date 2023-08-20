@@ -11,7 +11,7 @@ function ProductCard() {
           alt="product"
         />
 
-        <div className={classes["card__icon"]}>
+        <div className={classes["card__wishList"]}>
           <Link>
             {" "}
             <svg

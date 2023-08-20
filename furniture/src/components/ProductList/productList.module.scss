@@ -1,13 +1,16 @@
 .product {
-  padding: 12.8rem 0;
 
   &__secthead {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 
     &--action {
-      color: var(--btn-bg-color);
+      padding-bottom: 5rem;
+      a{
+        color: var(--btn-bg-color);
       text-decoration: underline;
+
+      }
     }
   }
   &__grid{

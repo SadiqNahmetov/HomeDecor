@@ -1,0 +1,19 @@
+.title {
+  color: var(--main-text-color);
+  font-family: Didot;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  font-family: var(--second-font);
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding: 8rem 0 5rem 0;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+  }
+}

@@ -5,6 +5,9 @@ import AboutUs from "../../components/AboutUs";
 import Discount from "../../components/Discount";
 import ProductList from "../../components/ProductList";
 import changeTitle from "../../helpers/Change";
+import CategorySlider from "../../components/Slider/CategorySlider";
+import Title from "../../components/Title";
+
 
 function Home() {
   const url = "http://localhost:3000";
@@ -24,9 +27,11 @@ function Home() {
   return (
     <main>
       <MainHeader {...mainHeader} />
-
+      <CategorySlider />
+      <Title title = 'ABOUT US'/>
       <AboutUs />
       <Discount />
+      <Title title = 'PRODUCTS'/>
       <ProductList />
     </main>
   );
