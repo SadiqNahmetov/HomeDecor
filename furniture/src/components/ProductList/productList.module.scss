@@ -2,10 +2,11 @@
 
   &__secthead {
     display: flex;
+    align-items: center;
     justify-content: end;
 
     &--action {
-      padding-bottom: 5rem;
+   
       a{
         color: var(--btn-bg-color);
       text-decoration: underline;

@@ -2,12 +2,13 @@ import React from 'react';
 import './categorySlider.scss';
 import Slider from "react-slick";
 
-const CategorySlider = () => {
+const CategorySlider = (props) => {
 
+    const {slidesCount} = props;
     const settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: slidesCount,
         slidesToScroll: 1,
         autoplay: true,
         dots: true,

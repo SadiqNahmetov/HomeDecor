@@ -7,6 +7,8 @@ import ProductList from "../../components/ProductList";
 import changeTitle from "../../helpers/Change";
 import CategorySlider from "../../components/Slider/CategorySlider";
 import Title from "../../components/Title";
+import ContactContent from "../../components/ContactContent";
+import ProductSlider from "../../components/Slider/ProductSlider";
 
 
 function Home() {
@@ -27,12 +29,18 @@ function Home() {
   return (
     <main>
       <MainHeader {...mainHeader} />
-      <CategorySlider />
+      <CategorySlider slidesCount = {4}  />
       <Title title = 'ABOUT US'/>
       <AboutUs />
       <Discount />
       <Title title = 'PRODUCTS'/>
       <ProductList />
+      <Title title = 'MOST POPULAR'/>
+      <ProductSlider />
+      <Title title = 'COLLECTION'/>
+      <CategorySlider slidesCount = {3}  />
+      <Title title = 'CONTACT'/>
+      <ContactContent />
     </main>
   );
 }

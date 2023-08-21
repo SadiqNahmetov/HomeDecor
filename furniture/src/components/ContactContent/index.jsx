@@ -6,10 +6,6 @@ function ContactContent() {
   return (
     <div className={classes.contact}>
       <div className="container">
-        <div className="pageHead">
-          <div className="head">Contact</div>
-        </div>
-
         <div className={classes["contact__main"]}>
           <div className={classes["contact__input"]}>
             <form action="">

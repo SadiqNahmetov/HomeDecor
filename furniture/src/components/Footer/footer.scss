@@ -1,0 +1,59 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15.4rem 0 2rem;
+    
+
+    .footer__left {
+        max-width: 56rem;
+        width: 100%;
+
+        &--title {
+            color: var(--txt-color-dark);
+            font-family: Didot;
+            font-size: 5.22rem;
+            line-height: 5.8rem;
+            margin-bottom: 2rem;
+        }
+
+        &--copyright {
+            font-size: 1.2rem;
+        }
+    }
+
+    .footer__right {
+        max-width: 78.4rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &--phone {
+            font-variant-numeric: lining-nums proportional-nums;
+        }
+        &--desc {
+            max-width: 25rem;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer{
+        display: flex;
+        gap: 5rem;
+    }
+    .footer__left {
+        &--title {
+            font-size: 3.2rem;
+            line-height: 3.6rem;
+        }
+    }
+
+    .footer__right {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

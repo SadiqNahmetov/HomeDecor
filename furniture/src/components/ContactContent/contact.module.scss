@@ -1,12 +1,7 @@
 .contact {
-  padding-bottom: 15rem;
-
-
-
   &__input {
     max-width: 56rem;
     width: 100%;
-
 
     input,
     textarea {
@@ -20,7 +15,7 @@
       display: block;
       margin: 1.5rem 0;
     }
-  
+
     textarea {
       height: 13.6rem;
     }
@@ -30,13 +25,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
- 
-    
 
     img {
       max-width: 68rem;
       width: 100%;
-            border-radius: 5px 5px 300px 5px;
+      border-radius: 5px 5px 300px 5px;
     }
   }
 }
