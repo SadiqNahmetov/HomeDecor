@@ -6,7 +6,6 @@
   padding-bottom: 14rem;
   padding-top: 3rem;
 
-
   &__img {
     width: 68rem;
     height: 41.2rem;
@@ -24,6 +23,33 @@
     padding-bottom: 3rem;
     p {
       line-height: 2.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .about {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-bottom: 14rem !important;
+    padding-top: 3rem !important;
+
+    &__img {
+      width: 59.2rem;
+      margin-left: 3rem;
+    }
+
+    &__text {
+      padding-top: 3rem;
+      margin-left: 3rem;
+      p {
+        line-height: 2.4rem;
+      }
+    }
+    &__btn {
+      margin-left: 3rem;
     }
   }
 }

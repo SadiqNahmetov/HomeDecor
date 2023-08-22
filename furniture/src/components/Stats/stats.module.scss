@@ -1,7 +1,7 @@
 .stats {
   max-width: 110rem;
   margin: auto;
-    padding-bottom: 12rem;
+  padding-bottom: 8rem;
   &__content {
     display: flex;
     align-items: center;
@@ -29,6 +29,19 @@
         font-size: 2rem;
         font-weight: 500;
         line-height: 2.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .stats {
+    &__content {
+      display: flex !important;
+      flex-wrap: wrap !important;
+
+      &--item {
+        margin-top: 5rem;
       }
     }
   }

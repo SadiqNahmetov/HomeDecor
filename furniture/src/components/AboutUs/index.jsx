@@ -35,7 +35,10 @@ function AboutUs({image, description}) {
               </p>
             </div>
 
-            <SecondaryButton />
+            <div className={classes["about__btn"]}>
+            <SecondaryButton  />
+
+              </div>
           </div>
         </div>
       </div>
