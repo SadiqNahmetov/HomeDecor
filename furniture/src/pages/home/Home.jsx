@@ -31,7 +31,7 @@ function Home() {
       <MainHeader {...mainHeader} />
       <CategorySlider slidesCount = {4}  />
       <Title title = 'ABOUT US'/>
-      <AboutUs />
+      <AboutUs showButton={true} />
       <Discount />
       <Title title = 'PRODUCTS'/>
       <ProductList />

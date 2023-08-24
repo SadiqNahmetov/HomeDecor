@@ -1,11 +1,17 @@
 // src/pages/NotFound.js
 import React from "react";
+import './notFound.scss'
 
 function Page404() {
   return (
-    <div>
-      <h1>404 - Page Not Found</h1>
-      <p>Sorry, the page you're looking for could not be found.</p>
+    <div className="container">
+      <div className="notFound">
+        <div className="notFound--item">
+        <h2>404</h2>
+        <p>Page not found</p>
+        </div>
+
+      </div>
     </div>
   );
 }

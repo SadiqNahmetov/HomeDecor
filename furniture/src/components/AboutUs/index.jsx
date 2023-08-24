@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./aboutUs.module.scss";
 import SecondaryButton from "../SecondaryButton";
 
-function AboutUs({image, description}) {
+function AboutUs({image, description, showButton}) {
   return (
     <section>
       <div className="container">
@@ -36,7 +36,7 @@ function AboutUs({image, description}) {
             </div>
 
             <div className={classes["about__btn"]}>
-            <SecondaryButton  />
+            {showButton && <SecondaryButton />}
 
               </div>
           </div>

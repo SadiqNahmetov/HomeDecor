@@ -12,7 +12,7 @@ function ContactContent() {
               <input className={classes["contact__input--item"]} type="text" placeholder="NAME, SURNAME" />
               <input className={classes["contact__input--item"]} type="email" placeholder="E-MAIL ADRESS" />
               <input className={classes["contact__input--item"]} type="text" placeholder="THEME" />
-              <textarea className={classes["contact__input--text"]} type="text" placeholder="YOUR MESSAGE" />
+              <textarea className={classes["contact__input--text"]} type="text"  placeholder="YOUR MESSAGE" />
               <ButtonPrimary children={"Sent"} />
             </form>
           </div>
