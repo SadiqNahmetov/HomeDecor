@@ -1,36 +1,48 @@
-.contact {
-  &__input {
-    max-width: 56rem;
-    width: 100%;
+.contact__section {
+  padding-top: 8rem;
 
-    input,
-    textarea {
-      max-width: 56.3rem;
+  .contact {
+    &--item {
+      padding-bottom: 5rem;
+    }
+    &__input {
+      max-width: 56rem;
       width: 100%;
-      height: 5.4rem;
-      background-color: var(--main-bg);
-      padding: 20px;
-      border-radius: 10px;
-      border: 1px solid var(--border-color);
-      display: block;
-      margin: 1.5rem 0;
-      resize: none;
+
+      input,
+      textarea {
+        max-width: 56.3rem;
+        width: 100%;
+        height: 5.4rem;
+        background-color: var(--main-bg);
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid var(--border-color);
+        display: block;
+        margin: 1.5rem 0;
+        resize: none;
+      }
+
+      textarea {
+        height: 13.6rem;
+      }
     }
 
-    textarea {
-      height: 13.6rem;
+    &__button{
+      max-width: 56.3rem !important;
+    
     }
-  }
-  &__main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    &__main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
 
-    img {
-      max-width: 68rem;
-      width: 100%;
-      border-radius: 5px 5px 300px 5px;
+      img {
+        max-width: 68rem;
+        width: 100%;
+        border-radius: 5px 5px 300px 5px;
+      }
     }
   }
 }

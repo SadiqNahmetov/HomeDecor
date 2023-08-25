@@ -19,6 +19,7 @@
   --txt-color-dark: #2D2D2B;
   --main-input-bg: #EAE6DF;
   --border-color: #D4C8BE;
+  --second-bg-color: #D4C8BE;
   --btn-bg-color: #B8926A;
   --txt--color: #B8926A;
   --footer-txt-color: #717171;
@@ -111,7 +112,6 @@ h4 {
 
 
 @media screen and (max-width: 1200px) {
-  
     .btn{
       width: 26rem;
     }

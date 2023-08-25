@@ -1,0 +1,33 @@
+    .category__slider--item {
+        width: 33rem;
+        height: 19.3rem;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 20%;
+            backdrop-filter: blur(7.5px);
+            border-radius: 0 0 1rem 1rem;
+            overflow: hidden;
+        }
+
+        img {
+            border-radius: 1rem;
+        }
+
+        .category__name {
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #EAE6DF;
+            text-align: center;
+        }
+    }
+

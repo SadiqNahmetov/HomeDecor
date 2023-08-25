@@ -11,7 +11,6 @@ function Contact() {
   return (
     <main>
       <Breadcrumbs />
-      <Title title="CONTACT" />
       <ContactContent />
     </main>
   );

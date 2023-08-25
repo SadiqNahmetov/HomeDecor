@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import classes from "./productCard.module.scss";
+import classes from "../ProductCard/productCard.module.scss";
 
 function ProductCard() {
   return (

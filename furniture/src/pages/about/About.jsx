@@ -12,7 +12,6 @@ function About() {
   return (
     <main>
       <Breadcrumbs />
-      <Title title="ABOUT US" />
       <AboutUs />
       <Stats />
     </main>

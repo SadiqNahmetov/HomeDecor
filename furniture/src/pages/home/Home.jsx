@@ -5,11 +5,11 @@ import AboutUs from "../../components/AboutUs";
 import Discount from "../../components/Discount";
 import ProductList from "../../components/ProductList";
 import changeTitle from "../../helpers/Change";
-import CategorySlider from "../../components/Slider/CategorySlider";
-import Title from "../../components/Title";
-import ContactContent from "../../components/ContactContent";
-import ProductSlider from "../../components/Slider/ProductSlider";
+import CategorySlider from "../../components/CategorySlider";
 
+import ContactContent from "../../components/ContactContent";
+import ProductSlider from "../../components/ProductSlider/index";
+import CollectionSlider from "../../components/CollectionSlider";
 
 function Home() {
   const url = "http://localhost:3000";
@@ -29,17 +29,16 @@ function Home() {
   return (
     <main>
       <MainHeader {...mainHeader} />
-      <CategorySlider slidesCount = {4}  />
-      <Title title = 'ABOUT US'/>
+      <CategorySlider slidesCount={4} />
       <AboutUs showButton={true} />
       <Discount />
-      <Title title = 'PRODUCTS'/>
+
       <ProductList />
-      <Title title = 'MOST POPULAR'/>
+
       <ProductSlider />
-      <Title title = 'COLLECTION'/>
-      <CategorySlider slidesCount = {3}  />
-      <Title title = 'CONTACT'/>
+
+      <CollectionSlider slidesCount={3} />
+
       <ContactContent />
     </main>
   );

@@ -26,9 +26,7 @@ function Navbar() {
             <li className="menu__list--item">
               <NavLink  to="/collection">Collections</NavLink>
             </li>
-            <li className="menu__list--item ">
-              <NavLink  to="/sale">Sale</NavLink>
-            </li>
+          
             <li className="menu__list--item">
               <NavLink  to="/contact">Contact</NavLink>
             </li>
