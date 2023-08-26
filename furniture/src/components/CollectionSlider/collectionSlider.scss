@@ -1,11 +1,25 @@
 .collection__main {
   margin-top: 10rem;
   background-color: var(--second-bg-color);
+  .collection__main--title {
+  display: flex;
+  align-items: center;
+  padding-top: 6.5rem;
+  padding-bottom: 5rem;
 
-  &--item {
-    padding-top: 6.5rem;
-    padding-bottom: 5rem;
+
+  .collection__main--action{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    a {
+      color: var(--btn-bg-color);
+      text-decoration: underline;
+      text-align: center;
+    }
   }
+}
+
   .collection__slider--item {
     width: 33rem;
     height: 26.7rem;

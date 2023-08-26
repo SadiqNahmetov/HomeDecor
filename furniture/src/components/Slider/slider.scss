@@ -21,26 +21,27 @@
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 50%;
-  background: var(--btn-bg-color);
   opacity: 0.5;
   &:hover {
+    background: var(--btn-bg-color);
     opacity: 1;
   }
 }
+.slick-disabled {
+    opacity: 0.5;
+  }
 
 .slick-next {
   right: 1rem;
-  &::before {
-    content: url(../../assets/images/arrow_next.png);
-  }
+  background-color: var(  --btn-bg-color);
+
 }
 
 .slick-prev {
   right: 4rem !important;
   left: auto;
-  &::before {
-    content: url(../../assets/images/arrow_prev.png);
-  }
+  background-color: var(  --btn-bg-color);
+ 
 }
 
 .slick-slider {
@@ -72,3 +73,4 @@ padding-bottom: 14rem;
     }
   }
 }
+

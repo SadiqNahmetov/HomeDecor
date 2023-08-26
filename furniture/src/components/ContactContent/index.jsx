@@ -34,9 +34,9 @@ function ContactContent() {
                   type="text"
                   placeholder="YOUR MESSAGE"
                 />
-          <div className={classes["contact__button"]}>
-          <ButtonPrimary children={"Sent"} />
-          </div>
+                <div className={classes["contact__button"]}>
+                  <ButtonPrimary children={"Sent"} />
+                </div>
               </form>
             </div>
             <div className={classes["contact__img"]}>

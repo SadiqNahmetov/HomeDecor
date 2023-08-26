@@ -1,47 +1,44 @@
-import React from 'react';
+import React from "react";
 import SliderSlick from "../Slider";
 import "./collectionSlider.scss";
 import { Link } from "react-router-dom";
 import Title from "../Title";
 
-function CollectionSlider({slidesCount}) {
-    const settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: slidesCount,
-        slidesToScroll: 1,
-        autoplay: true,
-        dots: true,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 2,
-              arrows: false,
-            },
-          },
-        ],
-      };
+function CollectionSlider({ slidesCount }) {
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: slidesCount,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          arrows: false,
+        },
+      },
+    ],
+  };
   return (
-    <section className='collection__main' >
+    <section className="collection__main">
       <div className="container">
-      {/* <div className='collection__main--item'>
-      <Title title="COLLECTIONS" />
-      </div> */}
-      <div className="collection__main--item">
-            <Title title="COLLECTIONS" />
-            <div className="collection--action">
-              <Link to="/about">SEE ALL</Link>
-            </div>
+        <div className="collection__main--title">
+          <Title title="COLLECTIONS" />
+          <div className="collection__main--action">
+            <Link to="/">SEE ALL</Link>
           </div>
+        </div>
         <SliderSlick settings={settings}>
           <div className="collection__slider--item">
             <img
@@ -74,11 +71,10 @@ function CollectionSlider({slidesCount}) {
             />
             <p className="collection__name">BEDROOM</p>
           </div>
-        
         </SliderSlick>
       </div>
     </section>
-  )
+  );
 }
 
 export default CollectionSlider;

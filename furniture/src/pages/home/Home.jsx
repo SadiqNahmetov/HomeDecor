@@ -32,13 +32,9 @@ function Home() {
       <CategorySlider slidesCount={4} />
       <AboutUs showButton={true} />
       <Discount />
-
       <ProductList />
-
       <ProductSlider />
-
       <CollectionSlider slidesCount={3} />
-
       <ContactContent />
     </main>
   );
