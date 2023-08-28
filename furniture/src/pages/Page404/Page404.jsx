@@ -1,8 +1,15 @@
 // src/pages/NotFound.js
-import React from "react";
+import React, {useEffect} from "react";
+import changeTitle from "../../utils/Change";
 import './notFound.scss'
 
+
 function Page404() {
+
+
+  useEffect(() => {
+    changeTitle("Home");
+  }, []);
   return (
     <div className="container">
       <div className="notFound">

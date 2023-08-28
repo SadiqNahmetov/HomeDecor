@@ -7,10 +7,10 @@ import Title from "../Title";
 function ProductList() {
   return (
     <section className={classes.product__main}>
-        <div className="container">
-      <div className={classes["product"]}>
+      <div className="container">
+        <div className={classes["product"]}>
           <div className={classes["product__secthead"]}>
-              <Title title="PRODUCTS" />
+            <Title title="PRODUCTS" />
             <div className={classes["product__secthead--action"]}>
               <Link to="/about">SEE ALL</Link>
             </div>

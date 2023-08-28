@@ -1,33 +1,72 @@
 {
-    "mainHeader": {
-        "title": "THE FURNITURE THAT DEFINES YOU",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum",
-        "image": "https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1692576000&Signature=NoNlgGQemAOyIFOwPePAx4vLLslw6BWXmyK8CdPn4gStkOhXfur54bJcSYsBy0AHyYeCQm0EQJGbS1CjQpbY7mFeZkfNpX4Fvm6wcj8TMTKnGhGECNtfFKD1mpRfWMb5kq-ABoxPazxoHn92~iHtpKngio-PMyODE3Acid~DPuWJ65qAcuUZbu0nD3II5vzp7QuCb8syZ7cip-36~cRvBcQpf4n~4yb2mfsXQczAFuuR1Jr87LdDJ7vtQu1TxWUZGk7B5a3IFJTyXF4xHYn4rMnaBn831WF1yumPQKSuPpHnfWNa6cxlV92WOlEaPepXUGxt6kVh9zBLxo6t8CGGzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  "mainHeader": {
+    "title": "THE FURNITURE THAT DEFINES YOU",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum",
+    "image": "https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1692576000&Signature=NoNlgGQemAOyIFOwPePAx4vLLslw6BWXmyK8CdPn4gStkOhXfur54bJcSYsBy0AHyYeCQm0EQJGbS1CjQpbY7mFeZkfNpX4Fvm6wcj8TMTKnGhGECNtfFKD1mpRfWMb5kq-ABoxPazxoHn92~iHtpKngio-PMyODE3Acid~DPuWJ65qAcuUZbu0nD3II5vzp7QuCb8syZ7cip-36~cRvBcQpf4n~4yb2mfsXQczAFuuR1Jr87LdDJ7vtQu1TxWUZGk7B5a3IFJTyXF4xHYn4rMnaBn831WF1yumPQKSuPpHnfWNa6cxlV92WOlEaPepXUGxt6kVh9zBLxo6t8CGGzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  },
+
+  "categorySlider": [
+    {
+      "id": 1,
+      "image": "https://s3-alpha-sig.figma.com/img/5c25/6005/1de18f9d6f23b51045fc7090b7c82a42?Expires=1692576000&Signature=CZvfYetJNZCV7IWZxCw7LZuDyphttjkFHmWKTj5AFtrO-0yzhsOIkDKvUef2mxeznRhcpsAsGmYjujM9DCYz9A5UhaFJrbi9qGXeOHFmN-wn4l6IqcXFJxvTYRM8XAEjf8jZwtkpjg5bCD6wygMW5dJ7UrGa83Wro1lN-kQlJ9yXs~Cq2lZJ23cl5H5h1mlKdawD92fAZXUj4KoHwmwn~TgMSOqw5wWwiSL75DAfwZjFYREHG8fHvnHpIe4h3kiPZZO6blGZvCcnd3Sw3ONXfz1QAfKw1HTjJe5OXb9q9BiJt5B0BUPLd7V~cE5-ABGIgO1gq3wnNfGmP9V6EpKUhg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "SOFAS"
     },
-    "aboutUs":{
-        "image":"https://s3-alpha-sig.figma.com/img/754e/f220/6125e68f344e6b26d5b0e7816a0e4381?Expires=1692576000&Signature=GOk~~TIC-01M7CVAqJy4zgvV3-XOylo3D~PHUubYevyt87jOvifvXSLirV7sJS11aTconWHt4Sx4pB9yEwY1qjscRj78rZzjyIc2TG7oPPmYyPD8RGlV1vr1rIMgP3DqEx0Kx8cxjBAq3oUmNuVCGR9lj9Y4unGYO~HERTJJ-1O-UUKvUyHhd546HvldSqgvqooAuT4zca3OmhDW~6LEJs-H8GwKs~g4jz6jKSsTfhlST4R6XGKQT9KNJ7ZGpg~IEI10GPm-1B97-3MqGwGxwdr9ZhMeWPR0fXKQJN2CP8G8WOLN3VYHeGPzSAlfBirsabyKlq8p4JyKbrRy8fhvqw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-         "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.  Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-   
+    {
+      "id": 2,
+      "image": "https://s3-alpha-sig.figma.com/img/fc4f/78b4/52608fae9d209c21479bbc2e3acdb8da?Expires=1692576000&Signature=o65p4eTHGOi9u3hpEaLWGmybuQZh~WWiz84vP~1TRsjXmszNF12awYZxdgTrMVC0DHYQWISQ3VMhNS9Ozl6~j9rPEFt3QIQIUXUmhCccEnti7Dk22mT~ftDwDDdsc3iHETzrEudIpVMvpz2YqvBWAFcjdDkmv1ifWU7ud7l~fBV-CMircpUj8ZBu~JIXV~8OqKknouUiLhF9765EKTtaRSsWx7fVzAFNg7WNy9zfIoqFjAZe2cXJiYHQZoWY9WixAkERtgLtTODCcPMuv1~ZzJzMiMhWeMcqWJqPhEgmuXaVqUr~9Op2PWEYgVNfXb-HOy4Qy1IxHnAmsMfH3q7bYg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "BEDS AND HEADBOARDS"
     },
-    "products": [
-        {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100,
-            "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-        },
-        {
-            "id": 2,
-            "name": "Product 2",
-            "price": 200,
-            "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "name": "User 1",
-            "email": "g.ckd"
-        }
-    ]
+    {
+      "id": 3,
+      "image": "https://s3-alpha-sig.figma.com/img/872f/f807/ccb92b737b3915871daaeca675cd8aab?Expires=1692576000&Signature=aTJDurMijLZn4ZvTV-bcs8twS99~s2xHyv9VxbMC1Roqar~mjB8rbwJor9NnVoT22-bNmWPLOOcvK92gf3o-CZxbnHbPy4jOuCw6YEobsCTau2B3IcraR7r3YpRuwPbQY6RTQif7SF6yQbc~O8NJe3E6o-u6RJg5M8Wdk8cZw1w0ZNyhvHjGJkrrvQXKotlWBxc1~o4mWwMJYJigMBEqi8648zq5317coifshn56Pbq9vDFRPEpaLe1vyiH-qwZlK8ATH5N3HDznNRPPKWTe9kGdkrrjLWX-f8B0UCs1hBkPuYPjQCwrKF9otCuHHTHE3FCLtrgpHFSTcnD9d5UBLQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "RUGS"
+    },
+    {
+      "id": 4,
+      "image": "https://s3-alpha-sig.figma.com/img/3360/f18d/48cc860c94299bbd7c2cee006cd392c8?Expires=1692576000&Signature=Ge1R3-gszG18ifyzMlZaQygLKVVX9wP4~QxSIFEWwvWPvl8bnsUz2TOjsBKALGS5g-LhbSXfgihcX0IYhQ9kSDGdQqWJRRFTA-Dm1Ldauyd-7qwL8wsAVjhqxtRj5AUBWaE0BtwUmvB0gNu1vyaqZR8vL8B5IteiDDa3gT6WDyCIiZGhC0fJ8O8GpEy41qfDZqng9RFykU~95seX1UUfjAuYlAbEwMon9bq3om4msALnIZoIUD3wWIvDZHxd35a-IY8RkvzhMKkCsWhobk1T7f-yE1lw5JYbXCuSVf1MOCpccQqPIYfyD-fu4UQ2ORomq9Y2PIm3hxRf5BJnA3mHfQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "CUSHIONS"
+    },
+    {
+      "id": 5,
+      "image": "https://s3-alpha-sig.figma.com/img/fc4f/78b4/52608fae9d209c21479bbc2e3acdb8da?Expires=1692576000&Signature=o65p4eTHGOi9u3hpEaLWGmybuQZh~WWiz84vP~1TRsjXmszNF12awYZxdgTrMVC0DHYQWISQ3VMhNS9Ozl6~j9rPEFt3QIQIUXUmhCccEnti7Dk22mT~ftDwDDdsc3iHETzrEudIpVMvpz2YqvBWAFcjdDkmv1ifWU7ud7l~fBV-CMircpUj8ZBu~JIXV~8OqKknouUiLhF9765EKTtaRSsWx7fVzAFNg7WNy9zfIoqFjAZe2cXJiYHQZoWY9WixAkERtgLtTODCcPMuv1~ZzJzMiMhWeMcqWJqPhEgmuXaVqUr~9Op2PWEYgVNfXb-HOy4Qy1IxHnAmsMfH3q7bYg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "BEDS AND HEADBOARDS"
+    },
+    {
+      "id": 6,
+      "image": "https://s3-alpha-sig.figma.com/img/3360/f18d/48cc860c94299bbd7c2cee006cd392c8?Expires=1692576000&Signature=Ge1R3-gszG18ifyzMlZaQygLKVVX9wP4~QxSIFEWwvWPvl8bnsUz2TOjsBKALGS5g-LhbSXfgihcX0IYhQ9kSDGdQqWJRRFTA-Dm1Ldauyd-7qwL8wsAVjhqxtRj5AUBWaE0BtwUmvB0gNu1vyaqZR8vL8B5IteiDDa3gT6WDyCIiZGhC0fJ8O8GpEy41qfDZqng9RFykU~95seX1UUfjAuYlAbEwMon9bq3om4msALnIZoIUD3wWIvDZHxd35a-IY8RkvzhMKkCsWhobk1T7f-yE1lw5JYbXCuSVf1MOCpccQqPIYfyD-fu4UQ2ORomq9Y2PIm3hxRf5BJnA3mHfQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "name": "CUSHIONS"
+    }
+  ],
+
+  "aboutUs": {
+    "image": "https://s3-alpha-sig.figma.com/img/754e/f220/6125e68f344e6b26d5b0e7816a0e4381?Expires=1692576000&Signature=GOk~~TIC-01M7CVAqJy4zgvV3-XOylo3D~PHUubYevyt87jOvifvXSLirV7sJS11aTconWHt4Sx4pB9yEwY1qjscRj78rZzjyIc2TG7oPPmYyPD8RGlV1vr1rIMgP3DqEx0Kx8cxjBAq3oUmNuVCGR9lj9Y4unGYO~HERTJJ-1O-UUKvUyHhd546HvldSqgvqooAuT4zca3OmhDW~6LEJs-H8GwKs~g4jz6jKSsTfhlST4R6XGKQT9KNJ7ZGpg~IEI10GPm-1B97-3MqGwGxwdr9ZhMeWPR0fXKQJN2CP8G8WOLN3VYHeGPzSAlfBirsabyKlq8p4JyKbrRy8fhvqw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.  Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+  },
+
+  "bannerDiscount": {
+    "discount": "20% DISCOUNT",
+    "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo"
+  },
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "img": "https://s3-alpha-sig.figma.com/img/ed65/0672/8605e77828c2dca2b6da5d4d87f66186?Expires=1692576000&Signature=QualLTgUcOF7DIE8i6d1SmeDc4DF76y2fuPuy-yp-Xcx23YeY~FKENjYjt7Zgjp5SBLrBNtmbtKcb-RemdggjZzyFWMtnn5e9X7rYvi6VGF2UrsJWMAexbl7NwqokNc~HjXR389EoxELCsC7tg3gxL-c1xK8NbNwvUEMtNrQiW75cn-5DZqklXboUH7K7yFKUvfRiWSE1AuKgvxSsyJ9EqliedcKoIBzRCELf9yRJoHVbu3Q5JBCdSbmlUtSVhxE4ZgVF2oZzIRrLnpdkh-EgqCg5o4ah2XQsTVHaLVicm8ARGRAcqWkeZll~OxvtHdj4fRHs-VrpH0QxhoAqgCa7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "email": "g.ckd"
+    }
+  ]
 }

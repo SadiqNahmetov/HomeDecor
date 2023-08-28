@@ -3,13 +3,12 @@ import ButtonPrimary from '../PrimaryButton';
 import classes from'./discount.module.scss'
 
 
-function Discount() {
+function Discount({discount, description}) {
   return (
     <section>
       <div className={classes.discount}>
-        <h2>20% DISCOUNT</h2>
-        <p>Et harum quidem rerum facilis est et expedita distinctio.
-          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo </p>
+        <h2>{discount}</h2>
+        <p> {description}</p>
 
         <ButtonPrimary href="/product">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

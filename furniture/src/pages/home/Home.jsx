@@ -4,7 +4,7 @@ import MainHeader from "../../components/MainHeader";
 import AboutUs from "../../components/AboutUs";
 import Discount from "../../components/Discount";
 import ProductList from "../../components/ProductList";
-import changeTitle from "../../helpers/Change";
+import changeTitle from "../../utils/Change";
 import CategorySlider from "../../components/CategorySlider";
 
 import ContactContent from "../../components/ContactContent";
@@ -22,16 +22,34 @@ function Home() {
     });
   };
 
+  const [aboutUs, setAboutUs] = useState([]);
+
+  const getAboutUs = async () => {
+    await axios.get(`${url}/aboutUs`).then((res) => {
+      setAboutUs(res.data);
+    });
+  };
+
+  const [discount, setDiscount] = useState([]);
+
+  const getDiscount = async () => {
+    await axios.get(`${url}/bannerDiscount`).then((res) => {
+      setDiscount(res.data);
+    });
+  };
+
   useEffect(() => {
     getMainHeader();
+    getAboutUs();
+    getDiscount();
     changeTitle("Home");
   }, []);
   return (
     <main>
       <MainHeader {...mainHeader} />
-      <CategorySlider slidesCount={4} />
-      <AboutUs showButton={true} />
-      <Discount />
+      <CategorySlider  slidesCount={4} />
+      <AboutUs {...aboutUs} showButton={true} />
+      <Discount {...discount}/>
       <ProductList />
       <ProductSlider />
       <CollectionSlider slidesCount={3} />

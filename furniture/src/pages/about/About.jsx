@@ -1,17 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import AboutUs from "../../components/AboutUs";
-import changeTitle from "../../helpers/Change";
+import changeTitle from "../../utils/Change";
 import Stats from "../../components/Stats";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
 function About() {
+  const url = "http://localhost:3000";
+
+const [aboutUs, setAboutUs] = useState([]);
+
+  const getAboutUs = async () => {
+    await axios.get(`${url}/aboutUs`).then((res) => {
+      setAboutUs(res.data);
+    });
+  };
+   
   useEffect(() => {
+    getAboutUs();
     changeTitle("About");
   }, []);
   return (
     <main>
       <Breadcrumbs />
-      <AboutUs />
+      <AboutUs {...aboutUs} />
       <Stats />
     </main>
   );
