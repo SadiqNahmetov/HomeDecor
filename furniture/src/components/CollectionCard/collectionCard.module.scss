@@ -1,0 +1,28 @@
+#collection {
+  .collection__main {
+    &--header {
+      padding-top: 5rem;
+      &--title {
+        font-family: Didot;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+      }
+      p {
+        width: 563px;
+        height: 73px;
+      }
+    }
+    &--content {
+      &__item {
+        width: 44.6rem;
+        height: 26.7rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
