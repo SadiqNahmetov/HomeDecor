@@ -23,3 +23,17 @@
     line-height: 2.4rem;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .discount {
+  
+  
+    h2 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
