@@ -1,0 +1,56 @@
+.alert__main {
+  width: 44.6rem;
+  height: 27.7rem;
+  background: var(--txt-color-white);
+  display: flex;
+  justify-content: center;
+
+  .alert {
+    position: relative;
+    .alert--title {
+      padding-top: 3.6rem;
+      padding-bottom: 3.6rem;
+      color: var(--txt-color-dark);
+      text-align: center;
+      font-family: var(--second-font);
+      font-size: 3.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px; /* 100% */
+    }
+    .alert--txt {
+      padding-bottom: 3.6rem;
+
+      width: 35.3rem;
+      color: var(--Black, #2d2d2b);
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+    }
+    .aler--button {
+      width: 21.4rem !important;
+      height: 4.4rem !important;
+      margin-left: 5rem;
+
+      button {
+        width: 100% !important;
+      }
+    }
+    .alert--icon{
+        position: absolute;
+        top: 0.5rem;
+        right: -4rem;
+        width: 4.4rem;
+        height: 4.4rem;
+        background: var(--txt-color-white);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background: var(--txt-color-light);
+        }
+    }
+  }
+}
