@@ -2,6 +2,8 @@
 import React, {useEffect} from "react";
 import changeTitle from "../../utils/Change";
 import './notFound.scss'
+import Navbar from "../../components/Navbar";
+import Header from "../../components/Header";
 
 
 function Page404() {
@@ -12,6 +14,8 @@ function Page404() {
   }, []);
   return (
     <div className="container">
+      <Header />
+      <Navbar />
       <div className="notFound">
         <div className="notFound--item">
         <h2>404</h2>

@@ -9,6 +9,7 @@ import Collection from "./pages/collection/Collection";
 
 import Contact from "./pages/contact/Contact";
 import Page404 from './pages/Page404/Page404';
+import MyAcount from "./pages/MyAccount";
 
 
 function App() {
@@ -24,9 +25,10 @@ function App() {
             <Route path="/collection" element={<Collection />} />
        
             <Route path="/contact" element={<Contact />} />
+            <Route path="/myaccount" element={<MyAcount />} />
            
-            <Route path='*' element={<Page404 />} />
           </Route>
+            <Route path='*' element={<Page404 />} />
           
       
         </Routes>

@@ -28,9 +28,11 @@
       }
     }
 
-    &__button{
-      max-width: 56.3rem !important;
-    
+    &__button {
+      
+      button {
+        width: 100%;
+      }
     }
     &__main {
       display: flex;

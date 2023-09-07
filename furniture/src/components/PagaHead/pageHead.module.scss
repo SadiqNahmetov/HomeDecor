@@ -1,0 +1,11 @@
+.pageHead {
+  padding-top: 3.5rem;
+    &--description {
+      max-width: 56.3rem;
+      width: 100%;
+      color: var(--main-text-color);
+      line-height: 2.4rem;
+      margin: 3.5rem 0;
+      opacity: 0.8;
+    }
+  }

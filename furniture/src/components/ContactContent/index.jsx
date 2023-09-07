@@ -35,7 +35,7 @@ function ContactContent() {
                   placeholder="YOUR MESSAGE"
                 />
                 <div className={classes["contact__button"]}>
-                  <ButtonPrimary children={"Sent"} />
+                  <ButtonPrimary children={"Submit"} />
                 </div>
               </form>
             </div>
@@ -53,3 +53,6 @@ function ContactContent() {
 }
 
 export default ContactContent;
+
+
+

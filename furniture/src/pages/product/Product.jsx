@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import changeTitle from "../../utils/Change";
 import Breadcrumbs from "../../components/Breadcrumbs";
-import ProductList from "../../components/ProductList";
+import ProductCard from "../../components/ProductCard";
+import PageHead from "../../components/PagaHead";
+
 
 function Product() {
   useEffect(() => {
@@ -10,7 +12,9 @@ function Product() {
   return (
     <main>
       <Breadcrumbs />
-      <ProductList />
+      <PageHead title="Products" />
+      <ProductCard />
+      
     </main>
   );
 }

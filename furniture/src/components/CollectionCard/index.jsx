@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./collectionCard.module.scss";
-import Title from "../Title";
 import axios from "axios";
+import PageHead from "../PagaHead";
 
 function CollectionCard() {
   const url = "http://localhost:3000";
@@ -22,17 +22,9 @@ function CollectionCard() {
     <section id={classes.collection}>
       <div className="container">
         <div className={classes["collection__main"]}>
-          <div className={classes["collection__main--header"]}>
-            <Title
-              className="collection__main--header--title"
-              title="Collections"
-            />
-            <p>
-              Et harum quidem rerum facilis est et expedita distinctio. Nam
-              libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus id quod maxime.
-            </p>
-          </div>
+
+
+          <PageHead title="Collections" />
 
           <div
             className={classes["collection__main--content"]}
