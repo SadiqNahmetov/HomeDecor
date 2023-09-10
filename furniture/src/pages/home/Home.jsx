@@ -16,11 +16,13 @@ function Home() {
 
   const [mainHeader, setMainHeader] = useState([]);
 
+
   const getMainHeader = async () => {
     await axios.get(`${url}/mainHeader`).then((res) => {
       setMainHeader(res.data);
     });
   };
+
 
   const [aboutUs, setAboutUs] = useState([]);
 
@@ -38,11 +40,19 @@ function Home() {
     });
   };
 
+  const [products, setProducts] = useState([]);
+  const GetAllProduct = async () => {
+    setProducts(await ProductService.GetAll());
+  };
+
+
   useEffect(() => {
     getMainHeader();
     getAboutUs();
     getDiscount();
     changeTitle("Home");
+    GetAllProduct();
+
   }, []);
   return (
     <main>
@@ -50,7 +60,7 @@ function Home() {
       <CategorySlider  slidesCount={4} />
       <AboutUs {...aboutUs} showButton={true} />
       <Discount {...discount}/>
-      <ProductList />
+      <ProductList products={products} take={8} />
       <ProductSlider />
       <CollectionSlider slidesCount={3} />
       <ContactContent />

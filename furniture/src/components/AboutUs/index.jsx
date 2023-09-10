@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./aboutUs.module.scss";
 import SecondaryButton from "../SecondaryButton";
 import Title from "../Title";
+import AboutUsService from "../../APIs/services/AboutUsService";
 
-function AboutUs({ image, description, showButton }) {
+function AboutUs({ showButton }) {
+  const [aboutUs, setAboutUs] = useState([]);
+
+  const GetAllAbout = async () => {
+    setAboutUs(await AboutUsService.GetAll());
+  };
+
+  useEffect(() => {
+    GetAllAbout();
+  }, "");
   return (
     <section className={classes.about__main}>
       <div className="container">
@@ -11,17 +21,12 @@ function AboutUs({ image, description, showButton }) {
 
         <div className={classes["about"]}>
           <div className={classes["about__img"]}>
-            <img
-              src={image}
-              alt=""
-            />
+            <img src={aboutUs.image} alt="aboutUsImage" />
           </div>
 
           <div className={classes["about__right"]}>
             <div className={classes["about__text"]}>
-              <p>
-                {description}
-              </p>
+              <p>{aboutUs.description}</p>
             </div>
 
             <div className={classes["about__btn"]}>
