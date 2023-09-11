@@ -70,7 +70,7 @@ const ProductCard = ({children}) => {
         <img src={children.image} alt="productimage" />
       </div>
       <p className="product__title">{children.name}</p>
-      <span className="product__price">{children.price}$</span>
+      <span className="product__price">{children.price}</span>
     </div>
   );
 };

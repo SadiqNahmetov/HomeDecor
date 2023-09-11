@@ -6,31 +6,35 @@ import Discount from "../../components/Discount";
 import ProductList from "../../components/ProductList";
 import changeTitle from "../../utils/Change";
 import CategorySlider from "../../components/CategorySlider";
+import { Link } from "react-router-dom";
 
 import ContactContent from "../../components/ContactContent";
 import ProductSlider from "../../components/ProductSlider/index";
 import CollectionSlider from "../../components/CollectionSlider";
+import MainHeaderService from "../../APIs/services/MainHeaderService";
+import AboutService from "../../APIs/services/AboutUsService";
+import ProductService from "../../APIs/services/ProductService";
+import Title from "../../components/Title";
 
 function Home() {
   const url = "http://localhost:3000";
 
+
   const [mainHeader, setMainHeader] = useState([]);
 
-
-  const getMainHeader = async () => {
-    await axios.get(`${url}/mainHeader`).then((res) => {
-      setMainHeader(res.data);
-    });
+  const GetAllMainHeader = async () => {
+    setMainHeader(await MainHeaderService.GetAll());
   };
 
+  const [aboutUs, setAboutUs] = useState("");
 
-  const [aboutUs, setAboutUs] = useState([]);
-
-  const getAboutUs = async () => {
-    await axios.get(`${url}/aboutUs`).then((res) => {
-      setAboutUs(res.data);
-    });
+  const GetAllAbout = async () => {
+    setAboutUs(await AboutService.GetAll());
   };
+
+  useEffect(() => {
+    GetAllAbout();
+  },"");
 
   const [discount, setDiscount] = useState([]);
 
@@ -47,8 +51,8 @@ function Home() {
 
 
   useEffect(() => {
-    getMainHeader();
-    getAboutUs();
+    GetAllMainHeader();
+    GetAllAbout();
     getDiscount();
     changeTitle("Home");
     GetAllProduct();
@@ -60,6 +64,14 @@ function Home() {
       <CategorySlider  slidesCount={4} />
       <AboutUs {...aboutUs} showButton={true} />
       <Discount {...discount}/>
+      <div className="container">
+        <Title>
+          <h3 className="title__head">PRODUCTS</h3>
+          <div className="title--action">
+            <Link to="/about">SEE ALL</Link>
+          </div>
+        </Title>
+      </div>
       <ProductList products={products} take={8} />
       <ProductSlider />
       <CollectionSlider slidesCount={3} />

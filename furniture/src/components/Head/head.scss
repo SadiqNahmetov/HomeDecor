@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.4rem;
+    &--text {
+      width: 56.3rem;
+    }
+  
+    .dropdown {
+      position: relative;
+      display: inline-block;
+     
+      .dropbtn {
+        width: 33rem;
+        color: var(--txt--color);
+        border: 1px solid var(--dropdown-br-color);
+        background-color: var(  --dropdown-bg-color);
+      }
+  
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(  --dropdown-bg-color);
+        border: 1px solid var(--dropdown-br-color);
+        width: 33rem;
+        border-radius: 0 0 1rem 1rem;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 45px;
+        padding: 1rem;
+  
+        a {
+          color: var(--txt--color);
+          padding: 1.2rem 1.6rem;
+          text-decoration: none;
+          display: block;
+        }
+      }
+  
+      &:hover .dropdown-content {
+        display: block;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  }
