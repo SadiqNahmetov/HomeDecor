@@ -1,4 +1,5 @@
 import React from "react";
+import "./accountLayout.scss";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import Header from "../Header";
 import Navbar from "../Navbar";
@@ -14,14 +15,7 @@ const AccountLayout = () => {
      <Header />
      <Navbar/>
       <Breadcrumbs />
-      <div className="container section"
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-
-        }}
-      >
+      <div className="container section">
         <Profile />
         {<Outlet />}
       </div>
