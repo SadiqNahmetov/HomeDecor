@@ -6,9 +6,10 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import ProductCard from "../../components/ProductCard";
 import CategoryService from "../../APIs/services/CategoryService";
 import CollectionService from "../../APIs/services/CollectionService";
-import PageHead from "../../components/PagaHead";
 import ProductList from "../../components/ProductList";
 import InputElement from "../../components/InputElement";
+import Title from "../../components/Title";
+import Head from "../../components/Head";
 import { useSearchParams } from "react-router-dom";
 
 
@@ -178,9 +179,17 @@ useEffect(()=>{
   return (
     <main>
       <Breadcrumbs />
-      <PageHead title="Products" />
-      
-    
+      {showTitle ? (
+        <Title>
+          <h3 className="title__head container">{showHead}</h3>
+        </Title>
+      ) : null}
+      <Head>
+        <p className="header--text">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+          tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
+          minus id quod maxime.
+        </p>
         <div class="dropdown">
           <button class="dropbtn btn">
             <svg
@@ -230,7 +239,7 @@ useEffect(()=>{
             </a>
           </div>
         </div>
-    
+      </Head>
       <div className="main">
         <div className="container" style={mainStyle}>
           <aside style={asideStyle}>
@@ -258,7 +267,6 @@ useEffect(()=>{
           )}
         </div>
       </div>
-
 
       <ProductCard />
       

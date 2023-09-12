@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./header.scss";
 
 const Header = () => {
@@ -88,7 +89,8 @@ const Header = () => {
             </svg>
           </div>
           <div className="header__right--profile">
-            <svg
+        <Link to="/myaccount">
+        <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -108,6 +110,7 @@ const Header = () => {
                 fill="#2D2D2B"
               />
             </svg>
+        </Link>
           </div>
         </div>
       </div>
