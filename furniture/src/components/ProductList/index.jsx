@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Title from "../../components/Title";
+import React from "react";
 import "./productList.scss";
 import { useLocation } from "react-router-dom";
 import ProductCard from "../ProductCard";
 
-const ProductList = ({ take, products }) => {
+const Product = ({ take, products }) => {
+
   const location = useLocation();
   return (
-    <section class="product__list section">
+    <section className="product__list section">
       <div className={`${location.pathname == "/" ? "container" : ""}`}>
         <div className="product__content">
           {products?.slice(0, take).map((product) => {
-            return <ProductCard key={product.id}>{product}</ProductCard>;
+            return <ProductCard key={product.id} props = {product}/>;
           })}
         </div>
       </div>
@@ -20,4 +19,4 @@ const ProductList = ({ take, products }) => {
   );
 };
 
-export default ProductList;
+export default Product;

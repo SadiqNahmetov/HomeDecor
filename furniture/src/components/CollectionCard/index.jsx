@@ -1,23 +1,18 @@
 import React, { useEffect, useState } from "react";
 import classes from "./collectionCard.module.scss";
-import axios from "axios";
+import CollectionService from "../../APIs/services/CollectionService";
 import PageHead from "../PagaHead";
 
 function CollectionCard() {
-  const url = "http://localhost:3000";
+  const [collections, setCollections] = useState([]);
 
-  const [collection, setCollection] = useState([]);
-
-  const getCollection = async () => {
-    await axios.get(`${url}/collections`).then((res) => {
-      setCollection(res.data);
-    });
+  const GetAllCollection = async () => {
+    setCollections(await CollectionService.GetAll());
   };
 
   useEffect(() => {
-    getCollection();
+    GetAllCollection();
   }, []);
-
   return (
     <section id={classes.collection}>
       <div className="container">
@@ -28,9 +23,9 @@ function CollectionCard() {
 
           <div
             className={classes["collection__main--content"]}
-            key={collection.id}
+            key={collections.id}
           >
-            {collection.map((collection) => {
+            {collections.map((collection) => {
               return (
                 <div className={classes["collection__main--content__item"]}>
                   <img src={collection.image} alt="collection" />

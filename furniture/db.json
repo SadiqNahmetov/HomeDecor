@@ -5,7 +5,7 @@
     "image": "https://s3-alpha-sig.figma.com/img/ae4c/9e23/ba8849252aece8c4c38500429ce2f28b?Expires=1694995200&Signature=U75-cLDefP6MU83BCWi-jcQaFAcZhnz1DMIZQO2fFu8yldfHMj59O7h5BIiQnNNT4jN3NIarvUvLKznRDPOJfQbY8o4LLfEYqW5P-mJNfm8W2ntFjghaQGAuoI~tAL2jQ6Ux75Chr59gBUgArQcHrHdKeiHIBFyI4rWDQaoGdirPNmUdbFbrL2f-gGDclhdwsKdpE837neEqco4no~LKdEulod8mdaXbbfj7h53WzUXvJpjSeEL8kSKPiEbMnmRjZRsISNRWb1Gh7~gWIni4a8acBc9Eo0dAOfcHEyd33z5ld3k8Lo5K22Z5CXdNup4L9o5PrCUknend7~v6t4q54Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
   },
 
-  "categorySlider": [
+  "categories": [
     {
       "id": 1,
       "image": "https://s3-alpha-sig.figma.com/img/fc4f/78b4/52608fae9d209c21479bbc2e3acdb8da?Expires=1694995200&Signature=Sxwuy1W4yfq6bKqVnhWX11gkEzO8sSLRT0MAUGK6HpbC6iTqHzrsG0CfOjCtXH6OBXumr2Wzt9yMp2CuU7wfpxYKy56iA~4tVZuk2Q2VeV2axAWj7FHWNeaJGxxbd7mIl0QpM5-KU5qN4zdcfjvsnHd2pMfbuLQfygmoUMJQPPL5C~U1qcIsXGoEmpC26KnC4NKP2bZpihu1jEX4gONtgjGR7yB9FRIAOTaBGY8xUptYlJbewhIQfTRRgqMn7qFsBAc0fZ42RLIPZ4o5p98yLJtd3onTgQhIUbN~U~y4inSme7pItbyUWqAV1vKYgCXO~UuML-gM9iZOX9em2RLfAQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
@@ -78,7 +78,7 @@
       "isPopular": true,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "200$",
-      "image": "https://s3-alpha-sig.figma.com/img/18db/ff63/f1f0dd3eb19c837df412907407129597?Expires=1694390400&Signature=oRW0gUqpWjLS-p9v-16G9uIL1HmgjPXDAxiK-v7dalJckVVblqQvuREHvMXI33nUe0ULnW0I6meVFfhMNqanb3Pfn~zQ9bgJbs46xW36iVf5JqZtEkQbtbcUWsuvhhT7SpTbNmZoblnCJewPvF9IeZ1JF2kmbpaFjl5Nqoi-19xPP6eWgFykxLigHZ5OTVCQvOTp0uivC7b7tlZ1hP8cV3g~vZ-4txJwq7f8qZOtohSctyEXvovxG4pgrJfJ~qpoHpkkFbUEipXTO7SYh8hT9errya4c~FdEkMiIfEkXE2mRInzOjJLnoNavLtibGn~nHqcNysNIF~EK0Oul6SXDlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/dee2/eb13/91d11c1e5ecc902a0c6592f4c16d3abb?Expires=1695600000&Signature=TBeN-3Ru2kTF2rtYawdFPaQSgvUpqQe5OrPzOyaOnCM3QzdAT7y1iilPA282FbGaSbNJGa586jhoA-oMcJJzwCYDt1uuuXKkXRfok7TuJhrTUdLQu5gvtGDZmoppZm5GX99QRpQNG3ULGRolBqe-1bBVcpZmQjsKWKVtwnwL5jHpFQ7VNVfDyoYpADyM~cvJrV2lySNexSc5H4FfD34rJkSXKGFoabbdfn4GP0qaY1A6PoFkONxgtVMmmbPj3VzEzts20PMaMftY0K0~4XEQAqX7XEOIl5M3-IFsIyU~oMj9R7TIapHW4QJ6qL2c1T0fussjDJOP5t38GOSuicLtDg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 5,
@@ -87,7 +87,7 @@
       "isPopular": false,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "100$",
-      "image": "https://s3-alpha-sig.figma.com/img/dee2/eb13/91d11c1e5ecc902a0c6592f4c16d3abb?Expires=1694390400&Signature=cEJV4-BTDkY6eW7B3SjEcvJYaIwrxm92gh5q3mRZNm9gtgdgEIDjUJgWyPp1ggeYkJF~gk-z3GUGSxqzhNo5QEaN5e~Ck4pty6jjGa~0jS6fjEaddyso8wvC-N0yNVja0En~uLSBWvJeBi3nhHrLYlzHpEuJtIuEO~j-6gT501wNjqAxqWsDITq1yf35UPFmX~zP0~YSQOCDDjivZQYEZPEgXGyrwDpcJL-UY93tYJ9uQGqfXNa6OsTtQ324pNLUoBo0seRHGKn0bit-xfB1ig5Y2Ss8KzI0SsEpwm6RcO1-RiWIUlebhtUp4agkw-ISmqb1iwMS2JJEn8GgBK3Jvg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/a74d/e1b6/6730f5b5363196a16ffb8a91a269bf7e?Expires=1695600000&Signature=F2J2rWUfF7GUlGdsLd0Dd~Bhcy9a0XFi4CS~3qI3xjMbIVU90HikkPnHbFqK14~gT0gbKFpl0vb1P7vb~cKj5fNRn62FGnXUJ2YAE5TmBlRSTyarr5gSuErfiotscINgQ6s0~Lm11-ZHO9UhvsKtc4hzKAujUzyG1W4RHYS1Ja9K1LOkwpDE6fDhpoAbcVKaH3aJk2pI4~DS6SqNzcuhOpgRxy~pGfYpAbPx-BKPM8dNuYpdUW5VFn--THsBruMbc42UyqZsYluLdi6O-nZ7C0PQ9eIIGNt3CcM6ffXSieMPGe9f232FB~mbaWWzJEzPkzFnJ5RxgNXdA-3rQDWx2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 6,
@@ -96,7 +96,7 @@
       "isPopular": true,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "200$",
-      "image": "https://s3-alpha-sig.figma.com/img/a74d/e1b6/6730f5b5363196a16ffb8a91a269bf7e?Expires=1694390400&Signature=kSv2dZlirNQG~ZHYluAaLTKBsmUPcueVoKdrmcR~5r5UdcBnIbMKruETqMcSYizXAPjdK2urbSx~1Oxb9JGHK9s5nMaCCiWC3J0k5Us0IBL2t0sGJbpggBxooMw16ORHXWI-cDHVgmE4RhEw0Tn0UO30yQ2a0txzEX1GOuHJN7YDi204hW4~apyvzxx5opLTql1M6~9Hwjc15ZRBlzMC-OQb86xStv5pLnqFAvB0cffCwTI6G1PO6NuQtzmqGZgDRgmhC0LaBJiuc27riW8pfg0vSVOL3Yykd6KJArpbRCjDFfD6OFa2qapriD8caNdRkB2RqVvBVbxtcZmtnDNd0g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/4d98/0a2b/4cf40a0ed69c10e4829a9d775c00304d?Expires=1695600000&Signature=jCPAYMWvaCrQkvjQItnodJJ6CWUtXNGc4fBHwjIW5hSqyd4B-FI3-cTWtxpIy7Yjf8eKfXvy6AiPr~vcBU6QoDxuWAFo1jLldiI~noEfVK3S~wXijK~9FS0orIKX567LcrOM~MOGHZMG5iKStMZqfC~jCIoNEV7Cm3wTdKjMVwVyohda2zqdSRzHL3qEZOTeNWE5WJ5jY0Z0s-Q5ZdKGYmEwEJftuwAV5q~UkswInue1ErIOmFdqUOS~h-eqpJTq11lQEliNEwTtrqmdN29F9SERC1yb299JGVqiJZzLQv7nzF-j8YavohIv-DRA1ABYNFomC0CTWFGxUv0xiLusRw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 7,
@@ -105,7 +105,7 @@
       "isPopular": false,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "100$",
-      "image": "https://s3-alpha-sig.figma.com/img/4d98/0a2b/4cf40a0ed69c10e4829a9d775c00304d?Expires=1695600000&Signature=jCPAYMWvaCrQkvjQItnodJJ6CWUtXNGc4fBHwjIW5hSqyd4B-FI3-cTWtxpIy7Yjf8eKfXvy6AiPr~vcBU6QoDxuWAFo1jLldiI~noEfVK3S~wXijK~9FS0orIKX567LcrOM~MOGHZMG5iKStMZqfC~jCIoNEV7Cm3wTdKjMVwVyohda2zqdSRzHL3qEZOTeNWE5WJ5jY0Z0s-Q5ZdKGYmEwEJftuwAV5q~UkswInue1ErIOmFdqUOS~h-eqpJTq11lQEliNEwTtrqmdN29F9SERC1yb299JGVqiJZzLQv7nzF-j8YavohIv-DRA1ABYNFomC0CTWFGxUv0xiLusRw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/ae52/fda0/d18440f6574ed4959e1aaf90d8c59dd1?Expires=1695600000&Signature=a8Fp9oXQR4TqC8rOYLk0BhU-L8UgVQ3R7trcuf7gMsuIQfVvK6HkT3C9jqje01KmjZ~loRIcduBVSFe2Pzzfa7CLnVFNZ-CbLaKMrxX5E6HS5dIaLHhMlzTgfarBqryDfDAHE3zP0eXOhXOasCAldOO3vIvY98BE73xzdPu7LmPQ2fUNT9VuqVijqIyUwK9Ur3unUx-d855uctsuCQrvoITkgqCZOX2mtFi2c0By9QF9uNGjOw~is5L~NbM1F-KXFpWRgVF-KhHjYcrUvVoka0IMx32N~-Ju2jzRojdsFgRTxyssYpOpwgjFDlyYoclxpo0T~qHKduYnj-F1MoO9BQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 8,
@@ -114,7 +114,7 @@
       "isPopular": true,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "200$",
-      "image": "https://s3-alpha-sig.figma.com/img/9d73/9587/4c2910d000ef86b5e1bfb6b0575053b1?Expires=1695600000&Signature=AzEQnjmv4TVql7vPx9eDBPALmbMEjz5qPhEYpZhQWPl2nOkf84NvFTa6bPgj0D9cE5VdOr8pQHYJpnaH0rEKkzvvyT7C9ZYYT8NMU00lb5ddE4FNrLBH5zVHtZ6xD2b8KfkWmhi6WlIBVEtBBi~Kxc1K1a27~AwxPA143w~BWpzguP9-dylsdKQd~HWn60rf-K77NfNph6O5rXft9DJqASqvc7QdP-h0Ptq3t~qmyMBHn6V~l2uIlPcuA7YBSEWcflHSQB8g9XC0~hn1w3goVh~QDravcsFQZTR9uXGJH1ZFHIOcRKsDThsTkuo1cJ4FZca1EiNPjI39G84Ss6FG8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/7bf7/d767/fb3d76499c0312fb96c9600f3c06fc31?Expires=1695600000&Signature=ER6NKGBq-XlbNrnLMATeMRhayN0FsIlrRsW3Qzm8-kfizvqFqiD5NdWzSiOejNcK1dFjAvPsSa8RjW~SGc-rZOA-cMniqbz3LYpMTWR8U3YhHlzd7mWEkZdWBwBbMX1GoWWoGk8elRBg6Gilzxo7Y8TMXlhmHy5WiXkpz9UX1ECZ6ZFPHBlNAvEr~Dqwbz8GHulD4WUIWSZIh5UZgarW4pivTCsjBu~320Upg8cGKh6lAx4IUVyGI6JiesOTjNqQkz~oVZ3XXq6HOjxrqH8d-gVq4QVdqScxNcZNAkoIG~uDO6LHx~S9JyP7JcPp8WueVAKnw8rqirE8~fudpfENtA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 9,
@@ -123,7 +123,7 @@
       "isPopular": false,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "150$",
-      "image": "https://s3-alpha-sig.figma.com/img/dc1e/c06f/b8a0f828f5124875bca8148fe0c94456?Expires=1694390400&Signature=NsgLfFREDaBZv7lUVoCU4r-8P5dbtT~mAC2qpOMUeEdNMih-RwnRUMkBFjvvp6fbqcVSnwSyMYCEP43kMp0BPRA9bE5~r3FoiWsWwT9Hc6kXlSgWnlv9iIyG-BrSvLnEfepK3GWvfs6i8-McMnWQ40hiFPJhjEutW-P6zFdNb0uRQxuU2~sAtjuVxB5DJolyMWlLgrXpakRdIslCQiX0DFi058cGa2aGs8QuBTjUJADWqlw8LxeHeLUWj-5nXYqeaJFTStQLsNb9uazf1lrLATnJV29bBeK0yHKyOEr0U3P5JKLWX5bAqIaw3aObVZa5s~UOVYnYFJIez71NllmFXQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/305c/2426/af6eb65fdd771b89d2c1700aac7e12e9?Expires=1695600000&Signature=MUCds6NjJ4wlnakmvoktMa~6OffwccIKckmA~8CupzV~lfewFtqBNQvRS6NwvAAGFXhJPZ8ahVPEmH1thO3mAUG2qagfJH0nJrKzmaq-yapwsDZVwi9gZlnFRirOYqay74ZDy~Tcff86SL0mPEtNUskw8WbkbaRVnigCKZwxr7gh67ShigoAngH~mGyajkeJSOQbBKuigXess48XUFkuv2-c1ynN8ZPKEMxxyOmz3W-vbylXiml3Rb0YMYElU4hQK3wXkOs9DaU7MwV5JbtYQAFwQr00cbiT2kjTqMLz-RNZ0gV9ug4501zU8HtpI0Adubg~J6dbmr0hGn77W7hp2w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 10,
@@ -132,7 +132,7 @@
       "isPopular": true,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "240$",
-      "image": "https://s3-alpha-sig.figma.com/img/872f/f807/ccb92b737b3915871daaeca675cd8aab?Expires=1694390400&Signature=cje8ibgJ3oZEfJ3J4m~oi7HvU5kslwZc53sPCz4J~IBi7G9TsQKCQUZRv8NcHpxeefafvfeWvtNtxHziyCK99L9hHeUwiErzNdtvj5VhJ6f4irduORTXNwHxczfMhuJu~Dsa3L0YuUFYKZbnDyyk8HHpfYu-F~Cg-OxkGdxf4gZGX3UUDT1sALPKCvFsOwL0NeKqVRMkHFs6HhHv8D1uECIC3ec07wAgehhgyf0roTfF94sYDcDOKsc2Ui5hRfZyoYbpSV5dHM0okhJmsMP4~cc08gL~sexLZIJNnZbgqItnm8zJzOrKFME0Ah7nvybYzZEujekeKeO8vSkZcXDAKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/1851/1c19/4acae62ef5c0b9441ca3aaa7b1199e43?Expires=1695600000&Signature=H8zgnEvYK7hhJh9gmh-DNFnHjtUk~PhPoI69kquhjDlRYPJJmePb40NvCfHUPTPHap60dHe~ASZ5BEVk5Sprm-JqBtfzbp29vPbDa3VAZOfhnw1Da2PJP0fVz34Y9wQesaO5TtJs44B2XzoUFc3z~xZWgdQZl4o0YMGROsOch0kL7y15F86bYlFPRFwzA70XQCt4yoxq1X~FcDnC3gsIsa0jKjC0oFeXoc4oBITuP1ZP7jY0JS4W-5V8XtpPvEQEGPUsAzeeMooFyhpYkB-omFM5XvMxci-c4oTpAF9-Fu83~ITjxoERxtDzFjFB11YB~gflHHYSHagh~kucN65EVQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 11,
@@ -141,7 +141,7 @@
       "isPopular": true,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "149$",
-      "image": "https://s3-alpha-sig.figma.com/img/4d98/0a2b/4cf40a0ed69c10e4829a9d775c00304d?Expires=1695600000&Signature=jCPAYMWvaCrQkvjQItnodJJ6CWUtXNGc4fBHwjIW5hSqyd4B-FI3-cTWtxpIy7Yjf8eKfXvy6AiPr~vcBU6QoDxuWAFo1jLldiI~noEfVK3S~wXijK~9FS0orIKX567LcrOM~MOGHZMG5iKStMZqfC~jCIoNEV7Cm3wTdKjMVwVyohda2zqdSRzHL3qEZOTeNWE5WJ5jY0Z0s-Q5ZdKGYmEwEJftuwAV5q~UkswInue1ErIOmFdqUOS~h-eqpJTq11lQEliNEwTtrqmdN29F9SERC1yb299JGVqiJZzLQv7nzF-j8YavohIv-DRA1ABYNFomC0CTWFGxUv0xiLusRw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/3100/68ee/10b908245071a25dcb0201a2777a112b?Expires=1695600000&Signature=lTChRpwnicgrj9hH8YnrURuOLIK0REyADnW6cqtEsGpTicJt2RrTyd6TMwIbwegg-~IPlSlQDr6RIbaHXux~xyIfYQcOF3kr6yZO3K7SOdta8B6Ltlr-hax72LMZeHWWIEqtgWAlMJXxnFqr3xGa0Dn9FVdS6H4oHKzSXS5t8hI4fLS1W1PVwk1ORaib5alzD~MlRdO~XPWYdk0w3LBTkhmPPW8~aFiouR4bDlcZUePYCEQiJGTFy9PEHMfkqcVQAjO~~dLjP6zgFJrKc2nWSFSXm1fgy5uAqR6UCZ1CeJGHM32pY1XarMo8uh8-NO2ALF005zWbOwpWtsxJFtdPtg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
       "id": 12,
@@ -150,7 +150,7 @@
       "isPopular": false,
       "name": "Grayson Premium Grey Wash Nest of Tables",
       "price": "200$",
-      "image": "https://s3-alpha-sig.figma.com/img/9d73/9587/4c2910d000ef86b5e1bfb6b0575053b1?Expires=1695600000&Signature=AzEQnjmv4TVql7vPx9eDBPALmbMEjz5qPhEYpZhQWPl2nOkf84NvFTa6bPgj0D9cE5VdOr8pQHYJpnaH0rEKkzvvyT7C9ZYYT8NMU00lb5ddE4FNrLBH5zVHtZ6xD2b8KfkWmhi6WlIBVEtBBi~Kxc1K1a27~AwxPA143w~BWpzguP9-dylsdKQd~HWn60rf-K77NfNph6O5rXft9DJqASqvc7QdP-h0Ptq3t~qmyMBHn6V~l2uIlPcuA7YBSEWcflHSQB8g9XC0~hn1w3goVh~QDravcsFQZTR9uXGJH1ZFHIOcRKsDThsTkuo1cJ4FZca1EiNPjI39G84Ss6FG8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+      "image": "https://s3-alpha-sig.figma.com/img/8026/59d9/c0b3b71441e3dcfa8abc9000896d31fd?Expires=1695600000&Signature=GpDauUxDZfk0WE-i9SFxBLMme3XsfaZQu5bWsSJgOgSfswElIDzNPhUMoBw417LecoxZ4lRcPz1ytJL-9mhoykVcR1xViopNO3EVn~Hwei~GtKz2VmLE2MQ5ARxE1tP9GRftCx-1p6Kz0znO66GB1rKgVGnxx62ahKZOkgTuKG9xeWV4BoHM8pRKd1MmMWkjBplNF~RTiZb-ZEcv016dOWOT7odXCW7nZBq2-npWwP07KQ-0eaZTtyyzw478hwRPxVBEMKzcBiqud3GzVc~J~tc0JC-bkuwgCwwFkhqAxDlql19~TDFAQZOEHMnAp1r4L5D9gBnLYsf5j3vEpGNS6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     }
   ],
 
@@ -234,7 +234,7 @@
   ],
 
   "contacts": {
-    "image": "https://s3-alpha-sig.figma.com/img/1a81/6eed/44a385856238ca77ac82ce311e6ee73e?Expires=1694390400&Signature=ihvr1QRPoYhsY8M9TgNdVZSD2H7Fkz24ceitzhxxcCHEUXvfPQInxtL9p403i24Dd~8wUFzajOUXhFLVmebWuEoF4HQ5d2DN0TwvyHAbeBLQjr0IFYkWOODoIaWwsOzX39bf9vD7s49EmiTRwjPo-046zVsd1~Vro2kRS38O5yEKsIcK~ZEtqyvlnV0w-UefzEmeE7RGlt3wA5HYWqXjmd6Fcy8QzfeA-lHcROiOjOpWqU6KOd6iMRHpZechUhnYKOmHy8APLJ5~cHCwNmWwDgy18CN8DxI9W52OFEDKNhHvjkCLRrD6p4al0jLHCtDnvL~6GoWzu5Ms3clfWytf6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    "image": "https://s3-alpha-sig.figma.com/img/1a81/6eed/44a385856238ca77ac82ce311e6ee73e?Expires=1695600000&Signature=ivd~To6yrkXeMzJ~YMTZ7y7vysXtr4~S6hlmNwCiyDV5hjXYeuMfVWMiJwl3FHO0DbHWxItvR-ss169-URrOXegkHJ9cVH5RYdxz413JT0vI2QRk~2ljtHA9WnQ5kRN8RkT5EjBiO8LUAqdWEoMVgVHj8jxPNcA5HKhxIyFZs4cx6NMwD6WZJJYtkf2Q~UCSis3oEQXrBKUAOyTRKce7Hq5tNRv4TkrVAKxPGJ84PmTiQSkqFzXDB9Fic7ODuAc3WrmV9thoE8x6vfogPAPX2vPZznHlaOACE6GrSrbVoom0DOqe7-gkr8rXBSF75vEX4VXKU6F3-VDLVoBpm8Oluw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
   },
 
   "users": [

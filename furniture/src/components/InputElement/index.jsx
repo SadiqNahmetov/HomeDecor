@@ -45,7 +45,7 @@ const InputElement = ({
       <label
         className="filter__area--label"
         onClick={() => setFilters([])}
-        style={{ display: "flex", alignItems: "center"}}
+        style={{ display: "flex", alignItems: "center" }}
         htmlFor={uniqueAllId}
       >
         <input

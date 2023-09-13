@@ -1,10 +1,9 @@
-.product__list{
-    flex: 1;
-    .product__content {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
-      justify-content: center;
-      gap: 2rem;
-      padding-top: 10rem;
-    }
+.product__list {
+  flex: 1;
+  .product__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    justify-content: center;
+    gap: 2rem;
   }
+}

@@ -5,7 +5,7 @@ class CategoryService extends HttpClient {
     super("http://localhost:3000");
   }
 
-  GetAll = ()=> this.get("categorySlider");
+  GetAll = () => this.get("categories");
 }
 
 export default new CategoryService();

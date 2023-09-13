@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AboutUs from "../../components/AboutUs";
 import changeTitle from "../../utils/Change";
 import Stats from "../../components/Stats";
-import Breadcrumbs from "../../components/Breadcrumbs";
 
 
 function About() {
@@ -15,7 +14,6 @@ function About() {
   }, "");
   return (
     <main>
-      <Breadcrumbs />
       <AboutUs  />
       <Stats />
     </main>

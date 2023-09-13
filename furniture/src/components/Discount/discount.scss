@@ -1,0 +1,48 @@
+.discount__area {
+    margin-bottom: 10rem;
+  .discount {
+    height: 35.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .discount__content {
+   
+
+      &--title {
+        color: #fff;
+        font-family: Didot;
+        font-size: 6.4rem;
+        font-weight: 700;
+        line-height: 5.2rem;
+        margin-bottom: 3.6rem;
+      }
+
+      &--text {
+        max-width: 44.5rem;
+        width: 100%;
+        color: #fff;
+        font-weight: 400;
+        line-height: 2.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .discount {
+      padding: 0 1rem;
+      .discount__content {
+        &--title {
+          font-size: 4rem;
+          line-height: 4.8rem;
+          margin-bottom: 2.4rem;
+        }
+
+        &--text {
+          max-width: 38.4rem;
+        }
+      }
+    }
+  }
+}

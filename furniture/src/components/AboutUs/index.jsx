@@ -17,7 +17,9 @@ function AboutUs({ showButton }) {
   return (
     <section className={classes.about__main}>
       <div className="container">
-        <Title title="ABOUT US" />
+      <Title>
+          <h3 className="title__head">AOBUT US</h3>
+        </Title>
 
         <div className={classes["about"]}>
           <div className={classes["about__img"]}>

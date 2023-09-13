@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import changeTitle from "../../utils/Change";
-import Breadcrumbs from "../../components/Breadcrumbs";
 import ContactContent from "../../components/ContactContent";
 
 function Contact() {
@@ -9,7 +8,6 @@ function Contact() {
   }, []);
   return (
     <main>
-      <Breadcrumbs />
       <ContactContent />
     </main>
   );

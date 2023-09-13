@@ -20,7 +20,9 @@ function ContactContent() {
       <div className={classes["contact"]}>
         <div className="container">
           <div className={classes["contact--item"]}>
-            <Title title="CONTACT" />
+          <Title>
+          <h3 className="title__head">CONTACT</h3>
+        </Title>
           </div>
           <div className={classes["contact__main"]}>
             <div className={classes["contact__input"]}>

@@ -53,9 +53,9 @@ function ProductSlider() {
   return (
     <section className="productSlider__main">
       <div className="container">
-        <div className="productSlider__main--item">
-          <Title title="MOST POPULAR" />
-        </div>
+      <Title>
+          <h3 className="title__head">MOST POPULAR</h3>
+        </Title>
         <SliderSlick settings={settings}>
        
           {products.slice(0, 6).map((product) => {

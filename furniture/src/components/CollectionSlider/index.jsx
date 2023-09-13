@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import CollectionService from "../../APIs/services/CollectionService";
 import SliderSlick from "../Slider";
 import "./collectionSlider.scss";
 import { Link } from "react-router-dom";
@@ -32,30 +32,30 @@ function CollectionSlider({ slidesCount }) {
     ],
   };
 
-  const url = "http://localhost:3000";
+  const [collections, setCollections] = useState([]);
 
-  const [collection, setCollection] = useState([]);
-
-  const getCollection = async () => {
-    await axios.get(`${url}/collections`).then((res) => {
-      setCollection(res.data);
-    });
+  const GetAllCollection = async () => {
+    setCollections(await CollectionService.GetAll());
   };
 
   useEffect(() => {
-    getCollection();
+    GetAllCollection();
   }, []);
   return (
     <section className="collection__main">
       <div className="container">
         <div className="collection__main--title">
-          <Title title="COLLECTIONS" />
-          <div className="collection__main--action">
-            <Link to="/">SEE ALL</Link>
+        <Title>
+          <h3 className="title__head">COLLECTIONS</h3>
+          <div className="title--action">
+            <Link to="/about">SEE ALL</Link>
           </div>
+        </Title>
+         
+         
         </div>
         <SliderSlick settings={settings}>
-          {collection.map((collection) => {
+          {collections.map((collection) => {
             return (
               <div className="collection__slider--item" key={collection.id}>
                 <img src={collection.image} alt="" />

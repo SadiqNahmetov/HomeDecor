@@ -6,7 +6,6 @@ import MainLayout from "./layout/MainLayout";
 import About from "./pages/about/About";
 import Product from "./pages/product/Product";
 import Collection from "./pages/collection/Collection";
-
 import Contact from "./pages/contact/Contact";
 import Page404 from './pages/Page404/Page404';
 import AccountLayout from "./components/AccountLayout";

@@ -36,13 +36,7 @@ function Home() {
     GetAllAbout();
   },"");
 
-  const [discount, setDiscount] = useState([]);
 
-  const getDiscount = async () => {
-    await axios.get(`${url}/bannerDiscount`).then((res) => {
-      setDiscount(res.data);
-    });
-  };
 
   const [products, setProducts] = useState([]);
   const GetAllProduct = async () => {
@@ -53,7 +47,7 @@ function Home() {
   useEffect(() => {
     GetAllMainHeader();
     GetAllAbout();
-    getDiscount();
+
     changeTitle("Home");
     GetAllProduct();
 
@@ -63,7 +57,7 @@ function Home() {
       <MainHeader {...mainHeader} />
       <CategorySlider  slidesCount={4} />
       <AboutUs {...aboutUs} showButton={true} />
-      <Discount {...discount}/>
+      <Discount />
       <div className="container">
         <Title>
           <h3 className="title__head">PRODUCTS</h3>

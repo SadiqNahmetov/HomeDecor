@@ -15,7 +15,7 @@ const AccountLayout = () => {
      <Header />
      <Navbar/>
       <Breadcrumbs />
-      <div className="container section">
+      <div className="container sectionAccount">
         <Profile />
         {<Outlet />}
       </div>
