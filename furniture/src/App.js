@@ -15,7 +15,7 @@ import MyAccount from "./pages/MyAccount";
 function App() {
   return (
     <>
-      <Router>
+      
         <Routes>
       
           <Route path="/" element={<MainLayout />}>
@@ -34,7 +34,7 @@ function App() {
       
         </Routes>
 
-      </Router>
+      
 
     </>
   );

@@ -45,14 +45,12 @@ function CollectionSlider({ slidesCount }) {
     <section className="collection__main">
       <div className="container">
         <div className="collection__main--title">
-        <Title>
-          <h3 className="title__head">COLLECTIONS</h3>
-          <div className="title--action">
-            <Link to="/about">SEE ALL</Link>
-          </div>
-        </Title>
-         
-         
+          <Title>
+            <h3 className="title__head">COLLECTIONS</h3>
+            <div className="title--action">
+              <Link to="/collection">SEE ALL</Link>
+            </div>
+          </Title>
         </div>
         <SliderSlick settings={settings}>
           {collections.map((collection) => {

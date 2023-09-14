@@ -62,7 +62,7 @@ function Home() {
         <Title>
           <h3 className="title__head">PRODUCTS</h3>
           <div className="title--action">
-            <Link to="/about">SEE ALL</Link>
+            <Link to="/product">SEE ALL</Link>
           </div>
         </Title>
       </div>
