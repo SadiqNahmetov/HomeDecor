@@ -5,11 +5,11 @@ import "./collectionSlider.scss";
 import { Link } from "react-router-dom";
 import Title from "../Title";
 
-function CollectionSlider({ slidesCount }) {
+function CollectionSlider() {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: slidesCount,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     dots: true,

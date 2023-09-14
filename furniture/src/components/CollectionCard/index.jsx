@@ -16,23 +16,24 @@ function CollectionCard() {
   return (
     <section id={classes.collection}>
       <div className="container">
-        <div className={classes["collection__main"]}>
+        <div className={classes["collection__main"]}
+         >
 
 
           <PageHead title="Collections" />
 
           <div
             className={classes["collection__main--content"]}
-            key={collections.id}
+         
           >
-            {collections.map((collection) => {
+            {collections.map((collections) => {
               return (
-                <div className={classes["collection__main--content__item"]}>
-                  <img src={collection.image} alt="collection" />
+                <div className={classes["collection__main--content__item"]} key={collections.id}>
+                  <img src={collections.image} alt="collection" />
                   <h3
                     className={classes["collection__main--content__item--name"]}
                   >
-                    {collection.name}
+                    {collections.name}
                   </h3>
                 </div>
               );

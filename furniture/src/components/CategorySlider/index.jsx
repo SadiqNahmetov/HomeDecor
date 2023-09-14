@@ -3,11 +3,11 @@ import "../CategorySlider/categorySlider.scss";
 import CategoryService from "../../APIs/services/CategoryService";
 import SliderSlick from "../Slider";
 
-const CategorySlider = ({ slidesCount }) => {
+const CategorySlider = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: slidesCount,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     dots: true,
@@ -59,5 +59,3 @@ const CategorySlider = ({ slidesCount }) => {
 };
 
 export default CategorySlider;
-
-

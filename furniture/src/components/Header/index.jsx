@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className="container">
-      <div className="header">
+      <div className="header__area">
         <div className="header__left">
           <div className="header__left--lang">
             <select className="select">

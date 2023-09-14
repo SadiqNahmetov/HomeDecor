@@ -1,28 +1,30 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./contact.module.scss";
 import ButtonPrimary from "../PrimaryButton";
 import Title from "../Title";
+import Alert from "../Alert";
 import ContactService from "../../APIs/services/ContactService";
 
-
 function ContactContent() {
-  const [contact, setContact] = useState("");
+  const [contact, setContact] = useState([]);
 
+  const [submit, setSubmit] = useState(false);
   const GetAllContact = async () => {
     setContact(await ContactService.GetAll());
   };
 
   useEffect(() => {
     GetAllContact();
-  }, "");
+  }, []);
   return (
     <section className={classes.contact__section}>
+      {submit && <Alert />}
       <div className={classes["contact"]}>
         <div className="container">
           <div className={classes["contact--item"]}>
-          <Title>
-          <h3 className="title__head">CONTACT</h3>
-        </Title>
+            <Title>
+              <h3 className="title__head">CONTACT</h3>
+            </Title>
           </div>
           <div className={classes["contact__main"]}>
             <div className={classes["contact__input"]}>
@@ -53,7 +55,7 @@ function ContactContent() {
               </form>
             </div>
             <div className={classes["contact__img"]}>
-            <img src={contact.image} alt="contactImage" />
+              <img src={contact.image} alt="contactImage" />
             </div>
           </div>
         </div>
@@ -63,6 +65,3 @@ function ContactContent() {
 }
 
 export default ContactContent;
-
-
-

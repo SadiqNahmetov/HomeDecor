@@ -13,7 +13,7 @@ function AboutUs({ showButton }) {
 
   useEffect(() => {
     GetAllAbout();
-  }, "");
+  }, []);
   return (
     <section className={classes.about__main}>
       <div className="container">

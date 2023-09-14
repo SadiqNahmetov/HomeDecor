@@ -6,7 +6,7 @@ import Background from "../../assets/images/discountsectionbackground.png";
 import ButtonPrimary from "../PrimaryButton";
 
 const Discount = () => {
-  const [discount, setDiscount] = useState("");
+  const [discount, setDiscount] = useState([]);
 
   const GetAllDiscount = async () => {
     setDiscount(await DiscountService.GetAll());

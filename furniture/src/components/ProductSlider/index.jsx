@@ -8,6 +8,7 @@ import axios from "axios";
 function ProductSlider() {
   const settings = {
     infinite: true,
+    arrows: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,

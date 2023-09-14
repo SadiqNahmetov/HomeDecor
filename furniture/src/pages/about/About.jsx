@@ -11,7 +11,7 @@ function About() {
   useEffect(() => {
  
     changeTitle("About");
-  }, "");
+  }, []);
   return (
     <main>
       <AboutUs  />
