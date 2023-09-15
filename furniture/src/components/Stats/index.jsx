@@ -1,20 +1,18 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import StatsService from "../../APIs/services/StatsService";
 import classes from "./stats.module.scss";
 
 function Stats() {
-  const url = "http://localhost:3000";
+
 
   const [stats, setStats] = useState([]);
 
-  const getStats = async () => {
-    await axios.get(`${url}/stats`).then((res) => {
-      setStats(res.data);
-    });
+  const GetAllStats = async () => {
+    setStats(await StatsService.GetAll());
   };
 
   useEffect(() => {
-    getStats();
+    GetAllStats();
   }, []);
   return (
     <div className="container">

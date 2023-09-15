@@ -1,0 +1,48 @@
+#wishlist__area {
+  flex: 1;
+
+  .empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 5rem;
+    font-weight: 500;
+    color: var(  --txt--color);
+  }
+  .wishlist__content {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    &--image {
+      width: 21.4rem;
+      height: 15rem;
+      object-fit: cover;
+
+      img {
+        border-radius: 1rem;
+      }
+    }
+    &--top {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--info {
+      flex: 1;
+      .wishlist__title {
+        max-width: 27rem;
+        width: 100%;
+        font-weight: 500;
+        line-height: 2.8rem;
+      }
+      .wishlist__price {
+        color: var(--Primary, #b8926a);
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3.8rem;
+        width: 100%;
+      }
+    }
+  }
+}

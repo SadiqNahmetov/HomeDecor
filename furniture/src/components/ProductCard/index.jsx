@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { toast } from "react-hot-toast";
 import "./productCard.scss";
 
 const ProductCard = ({props}) => {
-  const { image, title, price } = props;
+  const { image, name, price } = props;
 
   const [isWishlist, setIsWishlist] = useState(
     JSON.parse(localStorage.getItem("wishList"))?.some(
@@ -15,7 +16,7 @@ const ProductCard = ({props}) => {
     const wishlistItem = {
       id: id,
       image: image,
-      title: title,
+      name: name,
       price: price,
     };
 
@@ -23,10 +24,12 @@ const ProductCard = ({props}) => {
       const getWishlist = JSON.parse(localStorage.getItem("wishList"));
       const updatedWishlist = getWishlist.filter((item) => item.id !== id);
       localStorage.setItem("wishList", JSON.stringify(updatedWishlist));
+      toast.success("Product removed from favorites");
     } else {
       const getWishlist = JSON.parse(localStorage.getItem("wishList"));
       const updatedWishlist = [...getWishlist || [], wishlistItem];
       localStorage.setItem("wishList", JSON.stringify(updatedWishlist));
+      toast.success("Product added from favorites");
     }
 
     setIsWishlist(!isWishlist);

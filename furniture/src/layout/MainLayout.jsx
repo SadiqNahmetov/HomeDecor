@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { Outlet } from 'react-router-dom'
 import {useLocation} from "react-router-dom";
+import { Toaster } from 'react-hot-toast'
 
 function MainLayout() {
   const location = useLocation();
@@ -12,6 +13,7 @@ function MainLayout() {
     <>
         <Header/>
         <Navbar/>
+        <Toaster position='top-center'/>
         {location.pathname !== "/" ? <Breadcrumbs /> : null}
         <Outlet/>
         <Footer />

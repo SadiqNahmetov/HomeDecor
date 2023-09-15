@@ -8,8 +8,9 @@ import Product from "./pages/product/Product";
 import Collection from "./pages/collection/Collection";
 import Contact from "./pages/contact/Contact";
 import Page404 from './pages/Page404/Page404';
-import AccountLayout from "./components/AccountLayout";
+import AccountLayout from "./layout/AccountLayout";
 import MyAccount from "./pages/MyAccount";
+import WishListPage from "./pages/WishListPage/WishListPage";
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
          
             <Route path="myaccount/" element={<AccountLayout/>} >
                   <Route path="info" element={<MyAccount/>} />
+                  <Route path="wishlist" element={<WishListPage/>} />
+
+
         </Route>
       
         </Routes>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./collectionCard.module.scss";
 import CollectionService from "../../APIs/services/CollectionService";
-import PageHead from "../PagaHead";
+import PageHead from "../PageHead";
 
 function CollectionCard() {
   const [collections, setCollections] = useState([]);
