@@ -8,7 +8,7 @@ import Title from "../Title";
 function CollectionSlider() {
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
