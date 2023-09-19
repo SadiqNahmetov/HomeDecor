@@ -11,13 +11,16 @@ import Page404 from './pages/Page404/Page404';
 import AccountLayout from "./layout/AccountLayout";
 import MyAccount from "./pages/MyAccount";
 import WishListPage from "./pages/WishListPage/WishListPage";
+import RegisterLayout from "./layout/RegisterLayout";
+import Register from "./pages/register/RegisterPage";
+import Login from "./pages/login/LoginPage";
 
 
 function App() {
   return (
     <>
       
-        <Routes>
+        <Routes> 
       
           <Route path="/" element={<MainLayout />}>
             <Route path="/" element={<Home />} />
@@ -32,8 +35,12 @@ function App() {
             <Route path="myaccount/" element={<AccountLayout/>} >
                   <Route path="info" element={<MyAccount/>} />
                   <Route path="wishlist" element={<WishListPage/>} />
+                  
+        </Route>
 
-
+        <Route path="auth/" element={<RegisterLayout />}>
+          <Route path="register" element={<Register />} />
+          <Route path="login" element={<Login />} />
         </Route>
       
         </Routes>

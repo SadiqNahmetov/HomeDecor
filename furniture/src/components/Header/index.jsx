@@ -91,7 +91,7 @@ const Header = () => {
         </Link>
           </div>
           <div className="header__right--profile">
-        <Link to="/myaccount">
+        <Link  to="/auth/register">
         <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
