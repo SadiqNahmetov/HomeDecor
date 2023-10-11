@@ -17,7 +17,7 @@ const Discount = () => {
   }, []);
 
   const sectionBackground = {
-    backgroundImage: `url(${Background})`,
+    backgroundImage: `url(${discount.img})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",

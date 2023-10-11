@@ -1,15 +1,15 @@
-import React from 'react'
-import './accountImage.scss'
+import React from "react";
+import "./accountImage.scss";
 
 function AccountImage() {
   return (
     <div className="account__image">
-    <img
-      src="https://s3-alpha-sig.figma.com/img/5c26/4b95/4a9d0daa1e978f01a08ad9c346aca146?Expires=1695600000&Signature=X8bsbb8Lls07TWyq2s6hYbiAmydGj1tQA6wngE7PlDCXFTjS4DC~Tx8rFWWdQurefan9lVb2v0Tx7QiGmqnYD8ODDZGfnwqRFisUlPVOXxdSNDIyiQ-h-gdtpxeXzi~I6yxRrOneJZWFsTbYmgGtikVgqpIbVALu4qUjD7vH6CTS2vLXIkpAizBEtzIJ-EwqV4gAv-kvPZ~DRyHoWCun3h3d3L4jELPSMjVDTNsuOKAUEasvJb8lKTDAhErXlHHsROJQrfTqZpmkx98ad9ipKVOVfoh452tfMEumSh3Op0Ysyucx42rh92opxBPiCgyBAzevOpDs4ihKHJTzTWXIIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-      alt=""
-    />
-  </div>
+      <img
+        src="https://s3-alpha-sig.figma.com/img/5c26/4b95/4a9d0daa1e978f01a08ad9c346aca146?Expires=1697414400&Signature=BO9tLM7Xppo7smMr1462y2raZbqQY33G9eJnsgU658~o0zWCnvhz1zsSaF9WW~ioYwAFO9Lw2wboJ4LUjgfdngwf4q-G7fXBF5wTjXLre3N0RKigJXNnESnWrji5ygzAOYJ4aieY4uKgoOFgR~aEcGvPz2LH-acPfeIGsUkNmOBH2KaOFQ6anY0yQCVS6pr~zEMEFOy3TiPi-LprTqZZGn7zc5b-NhICW7VMTrHubU9MM8CL0XepQSzMVdHaEp1lwzJ85T8hsLRQpvOap8S~aAa6EjwJWajdSE6f1O7KULEb-2kG-Pli9ZOr2mlMBgitJ53sX~L6La2FVi0UZhIOCQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        alt=""
+      />
+    </div>
   );
 }
 
-export default AccountImage
+export default AccountImage;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Raleway:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Raleway:wght@400;500&display=swap");
 
 *,
 *::after,
@@ -11,30 +11,30 @@
 }
 
 :root {
-  --main-font: 'Raleway', sans-serif;
-  --second-font: 'Didot', serif;
+  --main-font: "Raleway", sans-serif;
+  --second-font: "Didot", serif;
   --txt-color-white: #ffffff;
-  --main-bg: #EAE6DF;
-  --main-button-txt: #EAE6DF;
-  --txt-color-dark: #2D2D2B;
-  --main-input-bg: #EAE6DF;
-  --border-color: #D4C8BE;
-  --second-bg-color: #D4C8BE;
-  --btn-bg-color: #B8926A;
-  --txt--color: #B8926A;
+  --main-bg: #eae6df;
+  --main-button-txt: #eae6df;
+  --txt-color-dark: #2d2d2b;
+  --main-input-bg: #eae6df;
+  --border-color: #d4c8be;
+  --second-bg-color: #d4c8be;
+  --btn-bg-color: #b8926a;
+  --txt--color: #b8926a;
   --footer-txt-color: #717171;
-  --hover-btn-bg-color: #A5825D;
-  --disabled-btn-color: #EAE6DF;
-  --disabled-btn-bg: #B0B0B0;
-  --secondary-btn-br-color: #B8926A;
-  --secondary-btn-disabled-br-color: #B0B0B0;
-  --secondary-btn-color: #B8926A;
-  --secondary-btn-hover-color: #A5825D;
-  --scondary-btn-disabled-color: #B0B0B0;
-  --dropdown-text-color: #B8926A;
-  --dropdown-bg-color: #EAE6DF;
-  --dropdown-br-color: #B8926A;
-  --input-txt-color:#B0B0B0;
+  --hover-btn-bg-color: #a5825d;
+  --disabled-btn-color: #eae6df;
+  --disabled-btn-bg: #b0b0b0;
+  --secondary-btn-br-color: #b8926a;
+  --secondary-btn-disabled-br-color: #b0b0b0;
+  --secondary-btn-color: #b8926a;
+  --secondary-btn-hover-color: #a5825d;
+  --scondary-btn-disabled-color: #b0b0b0;
+  --dropdown-text-color: #b8926a;
+  --dropdown-bg-color: #eae6df;
+  --dropdown-br-color: #b8926a;
+  --input-txt-color: #b0b0b0;
 }
 
 body {
@@ -44,7 +44,6 @@ body {
   font-weight: 400;
   color: var(--txt-color-dark);
   background: var(--main-bg);
-
 }
 
 html {
@@ -100,7 +99,7 @@ h4 {
 input[type="checkbox"] {
   appearance: none;
 }
-.btn{
+.btn {
   width: 33rem;
   height: 5.3rem;
   display: flex;
@@ -112,29 +111,22 @@ input[type="checkbox"] {
   text-transform: uppercase;
 }
 
-
-
 @media screen and (max-width: 1200px) {
-    .btn{
-      width: 26rem;
-    }
-  
+  .btn {
+    width: 26rem;
+  }
 }
 @media screen and (max-width: 550px) {
-  .btn{
+  .btn {
     width: 20rem;
     height: 4.3rem;
     gap: 1rem;
-
   }
-
 }
 @media screen and (max-width: 350px) {
-  .btn{
+  .btn {
     width: 20rem;
     height: 4.3rem;
     gap: 1rem;
-
   }
-
 }

@@ -70,7 +70,7 @@ const ProductCard = ({props}) => {
             </svg>
           )}
         </div>
-        <img src={props.image} alt="productimage" />
+        <img src={props.image} alt="productimage" /> 
       </div>
       <p className="product__title">{props.name}</p>
       <span className="product__price">{props.price}$</span>

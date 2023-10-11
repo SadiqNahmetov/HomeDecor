@@ -5,7 +5,8 @@ import WISHLIST from '../../components/WishList'
 function WishListPage() {
   return (
     <>
-    <WISHLIST/>
+  
+      <WISHLIST />
     
     </>
   )

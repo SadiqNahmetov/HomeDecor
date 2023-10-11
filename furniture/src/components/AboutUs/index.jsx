@@ -18,7 +18,7 @@ function AboutUs({ showButton }) {
     <section className={classes.about__main}>
       <div className="container">
       <Title>
-          <h3 className="title__head">AOBUT US</h3>
+          <h3 className="title__head">ABOUT US</h3>
         </Title>
 
         <div className={classes["about"]}>
